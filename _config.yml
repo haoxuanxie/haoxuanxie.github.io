@@ -1,7 +1,9 @@
 theme: jekyll-theme-cayman
 
-title: Haoxuan Xie's Site
-description: Welcome to my personal site
+title: Haoxuan Xie's Homepage
+description: Personal website of Haoxuan Xie
+baseurl: "https://haoxuanxie.github.io/about"
+url: "https://haoxuanxie.github.io" # the base hostname & protocol for your site
 
 # Navigation links
 navigation:
