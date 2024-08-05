@@ -34,7 +34,7 @@ nav ul li a:hover {
 }
 
 main {
-  max-width: 800px;
+  max-width: 1200px; /* Increased max-width */
   margin: 20px auto;
   padding: 20px;
   background: #fff;
