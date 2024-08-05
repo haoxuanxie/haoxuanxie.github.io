@@ -11,29 +11,19 @@ title: About
     
     <div class="social-icons">
       <a href="mailto:haoxuanxie001@e.ntu.edu.sg" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="width: 40px; height: 40px;">
-          "assets/images/email-icon.svg"
-        </svg>
+        <img src="/assets/images/email-icon.svg" alt="Email" class="social-icon">
       </a>
       <a href="https://github.com/forwardstar" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="width: 40px; height: 40px;">
-          "assets/images/github-icon.svg"
-        </svg>
+        <img src="/assets/images/github-icon.svg" alt="GitHub" class="social-icon">
       </a>
       <a href="https://scholar.google.com/citations?user=0J5LIA0AAAAJ&hl=en" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="width: 40px; height: 40px;">
-          "assets/images/google-scholar-icon.svg"
-        </svg>
+        <img src="/assets/images/google-scholar-icon.svg" alt="Google Scholar" class="social-icon">
       </a>
       <a href="https://cn.linkedin.com/in/haoxuan-xie-0592b61a2" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="width: 40px; height: 40px;">
-          "assets/images/linkedin-icon.svg"
-        </svg>
+        <img src="/assets/images/linkedin-icon.svg" alt="LinkedIn" class="social-icon">
       </a>
       <a href="https://orcid.org/0009-0006-9642-428X" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="width: 40px; height: 40px;">
-          "assets/images/orcid-icon.svg"
-        </svg>
+        <img src="/assets/images/orcid-icon.svg" alt="ORCID" class="social-icon">
       </a>
     </div>
   </div>
