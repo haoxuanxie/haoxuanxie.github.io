@@ -1,8 +1,9 @@
 theme: jekyll-theme-cayman
 
-title: Your Project Title
-description: Description of your project
+title: Haoxuan Xie's Site
+description: Welcome to my personal site
 
+# Navigation links
 navigation:
   - title: About
     url: /about
