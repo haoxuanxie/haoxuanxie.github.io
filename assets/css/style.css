@@ -168,3 +168,20 @@ main {
     width: 100%;
   }
 }
+
+.social-icons {
+  display: flex;
+  gap: 10px; /* Space between icons */
+  margin-top: 20px;
+}
+
+.social-icons svg {
+  width: 40px; /* Consistent size for the icons */
+  height: 40px; /* Maintain aspect ratio */
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+}
+
+.social-icons svg:hover {
+  transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
