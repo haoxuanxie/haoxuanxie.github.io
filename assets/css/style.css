@@ -66,6 +66,7 @@ main {
 .publication-item a:hover {
   text-decoration: underline;
 }
+
 .about-container {
   display: flex;
   gap: 20px;
@@ -74,7 +75,7 @@ main {
 
 .left-side {
   flex: 1;
-  max-width: 550px; /* Increased width for the left side */
+  max-width: 500px; /* Increased width for the left side */
 }
 
 .right-side {
@@ -83,7 +84,8 @@ main {
 
 .profile-photo {
   width: 100%;
-  max-width: 100%; /* Ensure photo is responsive */
+  max-width: 200px; /* Adjust max-width as needed */
+  height: auto;
   border-radius: 5px;
   margin-bottom: 20px;
 }
