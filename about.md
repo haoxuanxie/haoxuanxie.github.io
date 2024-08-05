@@ -11,19 +11,19 @@ title: About
     
     <div class="social-icons">
       <a href="mailto:haoxuanxie001@e.ntu.edu.sg" target="_blank">
-        <img src="/assets/images/email-icon.gif" alt="Email">
+        <img src="/assets/images/email-icon.svg" alt="Email">
       </a>
       <a href="https://github.com/forwardstar" target="_blank">
-        <img src="/assets/images/github-icon.gif" alt="GitHub">
+        <img src="/assets/images/github-icon.svg" alt="GitHub">
       </a>
       <a href="https://scholar.google.com/citations?user=0J5LIA0AAAAJ&hl=en" target="_blank">
-        <img src="/assets/images/google-scholar-icon.gif" alt="Google Scholar">
+        <img src="/assets/images/google-scholar-icon.svg" alt="Google Scholar">
       </a>
       <a href="https://cn.linkedin.com/in/haoxuan-xie-0592b61a2" target="_blank">
-        <img src="/assets/images/linkedin-icon.gif" alt="LinkedIn">
+        <img src="/assets/images/linkedin-icon.svg" alt="LinkedIn">
       </a>
       <a href="https://orcid.org/0009-0006-9642-428X" target="_blank">
-        <img src="/assets/images/orcid-icon.gif" alt="ORCID">
+        <img src="/assets/images/orcid-icon.svg" alt="ORCID">
       </a>
     </div>
   </div>
