@@ -14,7 +14,7 @@ title: About
     </div>
   </div>
   <div class="right-side">
-    <p>I'm currently a PhD student at [College of Computing and Data Science](https://www.ntu.edu.sg/computing), [Nanyang Technological University](https://www.ntu.edu.sg/). Prior to my PhD study, I obtained my B.Eng. degree at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn), where I published my first SIGMOD paper supervised by [Prof. Yixiang Fang](https://fangyixiang.github.io/). I also interned at [PingCAP](https://www.pingcap.com/) and [Tencent](https://www.tencent.com/). My research interest focuses on graph algorithms and graph storage, but I'm open-minded to various fields and collaborations.</p>
+    <p>I'm currently a PhD student at <a href="https://www.ntu.edu.sg/computing">College of Computing and Data Science</a>, <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>. Prior to my PhD study, I obtained my B.Eng. degree at <a href="https://www.cuhk.edu.cn">The Chinese University of Hong Kong, Shenzhen</a>, where I published my first SIGMOD paper supervised by <a href="https://fangyixiang.github.io/">Prof. Yixiang Fang</a>. I also interned at <a href="https://www.pingcap.com/">PingCAP</a> and <a href="https://www.tencent.com/">Tencent</a>. My research interest focuses on graph algorithms and graph storage, but I'm open-minded to various fields and collaborations.</p>
   </div>
 </div>
 
