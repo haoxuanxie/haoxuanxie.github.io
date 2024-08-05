@@ -7,8 +7,8 @@ url: "https://haoxuanxie.github.io" # the base hostname & protocol for your site
 
 # Navigation links
 navigation:
-  - title: About
-    url: /about
+  - title: Home
+    url: /home
   - title: Publications
     url: /publications
   - title: Blogs
