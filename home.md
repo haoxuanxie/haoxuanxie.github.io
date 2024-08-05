@@ -41,10 +41,18 @@ title: Home
 
 <div class="message-box">
   <h3>Leave an anonymous message here. Your message would only be visible to me.</h3>
-  <form action="https://formspree.io/f/mpwadnky" method="POST">
+  <form action="https://formspree.io/f/mpwadnky" method="POST" id="message-form">
     <textarea name="message" placeholder="Your message..."></textarea>
-    <div class="g-recaptcha" data-sitekey="6LeS-R8qAAAAAJ-gAfxPwbrMpZ5198goT2JBRzN0"></div>
-    <button type="submit">Submit</button>
+    <button class="g-recaptcha" 
+        data-sitekey="reCAPTCHA_site_key" 
+        data-callback='onSubmit' 
+        data-action='submit'>Submit</button>
   </form>
 </div>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<script src="https://www.google.com/recaptcha/api.js"></script>
+ <script>
+   function onSubmit(token) {
+     document.getElementById("message-form").submit();
+   }
+ </script>
