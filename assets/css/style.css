@@ -34,7 +34,7 @@ nav ul li a:hover {
 }
 
 main {
-  max-width: 1200px; /* Increased max-width */
+  max-width: 800px;
   margin: 20px auto;
   padding: 20px;
   background: #fff;
@@ -42,6 +42,30 @@ main {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.publication-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.publication-item h2 {
+  margin-top: 0;
+}
+
+.publication-item p, .publication-item ul {
+  margin: 10px 0;
+}
+
+.publication-item a {
+  color: #007bff;
+}
+
+.publication-item a:hover {
+  text-decoration: underline;
+}
 .about-container {
   display: flex;
   gap: 20px;
