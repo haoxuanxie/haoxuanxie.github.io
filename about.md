@@ -7,7 +7,7 @@ title: About
 
 <div class="about-container">
   <div class="left-side">
-    <img src="/photo.jpg" alt="Haoxuan Xie" class="profile-photo">
+    <img src="/assets/images/photo.jpg" alt="Haoxuan Xie" class="profile-photo">
     <div class="contact-info">
       <p><strong>Email:</strong> <a href="mailto:haoxuanxie001@e.ntu.edu.sg">haoxuanxie001@e.ntu.edu.sg</a></p>
       <p><strong>GitHub:</strong> <a href="https://github.com/forwardstar">github.com/forwardstar</a></p>
@@ -20,5 +20,8 @@ title: About
 
 <div class="message-box">
   <h3>Leave an anonymous message here. Your message would only be visible to me.</h3>
-  <textarea placeholder="Your message..."></textarea>
+  <form action="https://formspree.io/f/mpwadnky" method="POST">
+    <textarea name="message" placeholder="Your message..."></textarea>
+    <button type="submit">Submit</button>
+  </form>
 </div>
