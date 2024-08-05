@@ -1,17 +1,22 @@
 body {
   font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
 header {
-  background-color: #f8f9fa;
+  background-color: #007bff;
+  color: #fff;
   padding: 10px 20px;
+  text-align: right;
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align: right;
 }
 
 nav ul li {
@@ -21,9 +26,43 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #007bff;
+  color: #fff;
 }
 
 nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.publication-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.publication-item h2 {
+  margin-top: 0;
+}
+
+.publication-item p, .publication-item ul {
+  margin: 10px 0;
+}
+
+.publication-item a {
+  color: #007bff;
+}
+
+.publication-item a:hover {
   text-decoration: underline;
 }
