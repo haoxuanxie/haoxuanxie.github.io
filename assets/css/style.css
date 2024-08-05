@@ -128,3 +128,15 @@ main {
 .message-box button:hover {
   background-color: #0056b3;
 }
+
+.pdf-container {
+  margin: 20px auto;
+  max-width: 1000px; /* Adjust the max width as needed */
+  overflow: hidden;
+}
+
+.pdf-container iframe {
+  width: 100%;
+  height: 800px; /* Adjust the height as needed */
+  border: none;
+}
