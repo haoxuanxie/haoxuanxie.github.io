@@ -41,18 +41,45 @@ title: Home
 
 <div class="message-box">
   <h3>Leave an anonymous message here. Your message would only be visible to me.</h3>
-  <form action="https://formspree.io/f/mpwadnky" method="POST" id="message-form">
+  <form id="message-form" action="https://formspree.io/f/mpwadnky" method="POST">
     <textarea name="message" placeholder="Your message..."></textarea>
-    <button class="g-recaptcha" 
-        data-sitekey="reCAPTCHA_site_key" 
-        data-callback='onSubmit' 
-        data-action='submit'>Submit</button>
+    <div style="display: none;">
+      <label>Leave this field empty:</label>
+      <input type="text" name="honeypot" />
+    </div>
+    <input type="hidden" name="timestamp" id="timestamp" />
+    <button type="submit">Submit</button>
   </form>
 </div>
 
-<script src="https://www.google.com/recaptcha/api.js"></script>
- <script>
-   function onSubmit(token) {
-     document.getElementById("message-form").submit();
-   }
- </script>
+<script>
+document.getElementById('message-form').addEventListener('submit', function(event) {
+  var honeypot = document.querySelector('input[name="honeypot"]').value;
+  if (honeypot) {
+    event.preventDefault();
+    alert('Spam detected!');
+  } else {
+    // Proceed with form submission
+  }
+});
+</script>
+
+<script>
+document.getElementById('timestamp').value = new Date().getTime();
+</script>
+
+<script>
+document.getElementById('message-form').addEventListener('submit', function(event) {
+  var now = new Date().getTime();
+  var formTimestamp = document.getElementById('timestamp').value;
+  var timeElapsed = now - formTimestamp;
+
+  // Assuming human users take at least 5 seconds to fill out the form
+  if (timeElapsed < 5000) {
+    event.preventDefault();
+    alert('Form submitted too quickly. Please try again.');
+  } else {
+    // Proceed with form submission
+  }
+});
+</script>
