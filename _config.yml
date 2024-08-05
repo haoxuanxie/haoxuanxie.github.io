@@ -1,0 +1,12 @@
+theme: jekyll-theme-cayman
+
+title: Your Project Title
+description: Description of your project
+
+navigation:
+  - title: About
+    url: /about
+  - title: Publications
+    url: /publications
+  - title: CV
+    url: /cv
