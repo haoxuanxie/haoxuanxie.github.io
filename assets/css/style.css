@@ -232,7 +232,7 @@ ul li {
 }
 
 .rectangle {
-  background-color: #fae0f6; /* Lighter background color */
+  background-color: #fff; /* Lighter background color */
   padding: 40px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -259,5 +259,5 @@ ul li {
 
 .blog-body {
   font-size: 1em;
-  color: #fff; /* White content */
+  color: gray; /* White content */
 }
