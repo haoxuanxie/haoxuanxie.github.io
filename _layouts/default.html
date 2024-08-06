@@ -11,6 +11,7 @@
   <header>
     <nav>
       <ul>
+        <li><a href="#" id="translate-link">中文</a></li>
         <li><a href="{{ site.baseurl }}/home">Home</a></li>
         <li><a href="{{ site.baseurl }}/publications">Publications</a></li>
         <li><a href="{{ site.baseurl }}/blogs">Blogs</a></li>
@@ -21,5 +22,13 @@
   <main>
     {{ content }}
   </main>
+  <script>
+    document.getElementById('translate-link').addEventListener('click', function(event) {
+      event.preventDefault();
+      var currentUrl = window.location.href;
+      var newUrl = currentUrl + '_zh-CN';
+      window.location.href = newUrl;
+    });
+  </script>
 </body>
 </html>
