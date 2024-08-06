@@ -5,4 +5,11 @@ title: Blogs
 
 # Blogs
 
-This page is still under construction. We are sorry for the inconvenience.
+<h1>Blogs</h1>
+<ul>
+  {% for blog in site.blogs %}
+    <li>
+      <a href="{{ blog.url }}">{{ blog.title }}</a> - <small>{{ blog.date | date: "%B %d, %Y" }}</small>
+    </li>
+  {% endfor %}
+</ul>

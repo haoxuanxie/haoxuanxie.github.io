@@ -23,3 +23,8 @@ navigation:
     url: /blogs_zh-CN
   - title: 简历
     url: /cv_zh-CN
+
+collections:
+  blogs:
+    output: true
+    permalink: /assets/blogs/:path
