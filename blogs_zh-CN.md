@@ -5,4 +5,10 @@ title: 博客
 
 # 博客
 
-此页面正在建设中，敬请谅解。
+<ul>
+  {% for blog in site.blogs %}
+    <li>
+      <a href="{{ blog.url }}">{{ blog.title }}</a> - <small>{{ blog.date | date: "%B %d, %Y" }}</small>
+    </li>
+  {% endfor %}
+</ul>
