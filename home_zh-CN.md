@@ -31,11 +31,16 @@ title: 主页
         <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
         <svg fill="#000000" width="24px" height="24px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M 16 3 C 8.8321388 3 3 8.832144 3 16 C 3 23.167856 8.8321388 29 16 29 C 23.167861 29 29 23.167856 29 16 C 29 8.832144 23.167861 3 16 3 z M 16 5 C 22.086982 5 27 9.9130223 27 16 C 27 22.086978 22.086982 27 16 27 C 9.9130183 27 5 22.086978 5 16 C 5 9.9130223 9.9130183 5 16 5 z M 11 8 A 1 1 0 0 0 11 10 A 1 1 0 0 0 11 8 z M 10 11 L 10 22 L 12 22 L 12 11 L 10 11 z M 14 11 L 14 12 L 14 22 L 18.5 22 C 21.525577 22 24 19.525577 24 16.5 C 24 13.474423 21.525577 11 18.5 11 L 14 11 z M 16 13 L 18.5 13 C 20.444423 13 22 14.555577 22 16.5 C 22 18.444423 20.444423 20 18.5 20 L 16 20 L 16 13 z"/></svg>
       </a>
+      <a href="https://codeforces.com/profile/HaoxuanXIE" target="_blank">
+        <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+        <svg fill="#000000" width="24px" height="24px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><path d="M4.5 7.5A1.5 1.5 0 0 1 6 9v10.5A1.5 1.5 0 0 1 4.5 21h-3C.673 21 0 20.328 0 19.5V9c0-.828.673-1.5 1.5-1.5h3zm9-4.5A1.5 1.5 0 0 1 15 4.5v15a1.5 1.5 0 0 1-1.5 1.5h-3c-.827 0-1.5-.672-1.5-1.5v-15c0-.828.673-1.5 1.5-1.5h3zm9 7.5A1.5 1.5 0 0 1 24 12v7.5a1.5 1.5 0 0 1-1.5 1.5h-3a1.5 1.5 0 0 1-1.5-1.5V12a1.5 1.5 0 0 1 1.5-1.5h3z"/></svg>
+      </a>
     </div>
   </div>
   <div class="right-side">
     <p>欢迎来到我的主页！</p>
-    <p>我目前是<a href="https://www.ntu.edu.sg/">南洋理工大学</a>的一名博士生，就读于<a href="https://www.ntu.edu.sg/computing">计算与数据科学学院</a>。 此前，我在<a href="https://www.cuhk.edu.cn">香港中文大学（深圳）</a>就读本科课程并取得了工学学士学位，在此期间，我在<a href="https://fangyixiang.github.io/">方一向教授</a>的指导下发表了我的第一篇 SIGMOD 会议论文。 我曾在<a href="https://www.pingcap.com/">PingCAP</a>和<a href="https://www.tencent.com/">腾讯</a>公司实习。我的科研方向是图算法和图存储，但我对许多其他领域都感兴趣且有所了解，欢迎大家与我沟通交流。</p>
+    <p>我目前是<a href="https://www.ntu.edu.sg/">南洋理工大学</a>的一名博士生，就读于<a href="https://www.ntu.edu.sg/computing">计算与数据科学学院</a>。 此前，我在<a href="https://www.cuhk.edu.cn">香港中文大学（深圳）</a>就读本科课程并取得了工学学士学位，在此期间，我在<a href="https://fangyixiang.github.io/">方一向教授</a>的指导下发表了我的第一篇 <a href="https://sigmod.org/">SIGMOD</a> 会议论文。 我曾在 <a href="https://www.pingcap.com/">PingCAP</a> 和<a href="https://www.tencent.com/">腾讯</a>公司实习。我的科研方向是图算法和图存储，但我对许多其他领域都感兴趣且有所了解，欢迎大家与我沟通交流。</p>
+    <p>在科研之外，我对<a href="https://oi-wiki.org/">算法竞赛</a>很感兴趣。我曾在世界各地参加过许多算法竞赛（例如，<a href="https://news.icpc.global/">ICPC</a>），并在 <a href="https://codeforces.com/">Codeforces</a> 上取得了 <span style="color: #a0a;">candidate master</span> 的排位等级。我科研中的许多想法也都受启发于算法竞赛。</p>
   </div>
 </div>
 

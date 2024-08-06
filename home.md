@@ -31,11 +31,16 @@ title: Home
         <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
         <svg fill="#000000" width="24px" height="24px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M 16 3 C 8.8321388 3 3 8.832144 3 16 C 3 23.167856 8.8321388 29 16 29 C 23.167861 29 29 23.167856 29 16 C 29 8.832144 23.167861 3 16 3 z M 16 5 C 22.086982 5 27 9.9130223 27 16 C 27 22.086978 22.086982 27 16 27 C 9.9130183 27 5 22.086978 5 16 C 5 9.9130223 9.9130183 5 16 5 z M 11 8 A 1 1 0 0 0 11 10 A 1 1 0 0 0 11 8 z M 10 11 L 10 22 L 12 22 L 12 11 L 10 11 z M 14 11 L 14 12 L 14 22 L 18.5 22 C 21.525577 22 24 19.525577 24 16.5 C 24 13.474423 21.525577 11 18.5 11 L 14 11 z M 16 13 L 18.5 13 C 20.444423 13 22 14.555577 22 16.5 C 22 18.444423 20.444423 20 18.5 20 L 16 20 L 16 13 z"/></svg>
       </a>
+      <a href="https://codeforces.com/profile/HaoxuanXIE" target="_blank">
+        <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+        <svg fill="#000000" width="24px" height="24px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><path d="M4.5 7.5A1.5 1.5 0 0 1 6 9v10.5A1.5 1.5 0 0 1 4.5 21h-3C.673 21 0 20.328 0 19.5V9c0-.828.673-1.5 1.5-1.5h3zm9-4.5A1.5 1.5 0 0 1 15 4.5v15a1.5 1.5 0 0 1-1.5 1.5h-3c-.827 0-1.5-.672-1.5-1.5v-15c0-.828.673-1.5 1.5-1.5h3zm9 7.5A1.5 1.5 0 0 1 24 12v7.5a1.5 1.5 0 0 1-1.5 1.5h-3a1.5 1.5 0 0 1-1.5-1.5V12a1.5 1.5 0 0 1 1.5-1.5h3z"/></svg>
+      </a>
     </div>
   </div>
   <div class="right-side">
     <p>Welcome to my homepage!</p>
-    <p>I'm currently a PhD student at <a href="https://www.ntu.edu.sg/computing">College of Computing and Data Science</a>, <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>. Prior to my PhD study, I obtained my B.Eng. degree at <a href="https://www.cuhk.edu.cn">The Chinese University of Hong Kong, Shenzhen</a>, where I published my first SIGMOD paper supervised by <a href="https://fangyixiang.github.io/">Prof. Yixiang Fang</a>. I also interned at <a href="https://www.pingcap.com/">PingCAP</a> and <a href="https://www.tencent.com/">Tencent</a>. My research interest focuses on graph algorithms and graph storage, but I'm open-minded to various fields and collaborations.</p>
+    <p>I'm currently a PhD student at <a href="https://www.ntu.edu.sg/computing">College of Computing and Data Science</a>, <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>. Prior to my PhD study, I obtained my B.Eng. degree at <a href="https://www.cuhk.edu.cn">The Chinese University of Hong Kong, Shenzhen</a>, where I published my first <a href="https://sigmod.org/">SIGMOD</a> paper supervised by <a href="https://fangyixiang.github.io/">Prof. Yixiang Fang</a>. I also interned at <a href="https://www.pingcap.com/">PingCAP</a> and <a href="https://www.tencent.com/">Tencent</a>. My research interest focuses on graph algorithms and graph storage, but I'm open-minded to various fields and collaborations.</p>
+    <p>Apart from research, I'm quite interested in <a href="https://cp-algorithms.com/index.html">Competitive Programming</a>. I have participated in lots of programming contests (e.g., <a href="https://news.icpc.global/">ICPC</a>) worldwide and achieved a <span style="color: #a0a;">candidate master</span> rating at <a href="https://codeforces.com/">Codeforces</a>. Most of my research ideas are inspired from my experience in competitve programming.</p>
   </div>
 </div>
 
