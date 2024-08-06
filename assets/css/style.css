@@ -232,7 +232,7 @@ ul li {
 }
 
 .rectangle {
-  background-color: #007EBB;
+  background-color: #e0f7fa; /* Lighter background color */
   padding: 40px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -242,20 +242,22 @@ ul li {
 
 .rectangle-content {
   text-align: center;
-  color: #fff;
 }
 
 .blog-title {
   font-size: 2em;
   margin-bottom: 10px;
+  font-weight: bold;
+  color: #000; /* Black title */
 }
 
 .blog-date {
   font-size: 1em;
   margin-bottom: 20px;
+  color: #000; /* Black date */
 }
 
 .blog-body {
   font-size: 1em;
-  color: #fff;
+  color: #fff; /* White content */
 }
