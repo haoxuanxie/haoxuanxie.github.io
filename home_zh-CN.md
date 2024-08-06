@@ -47,7 +47,7 @@ title: 主页
 <div class="message-box">
   <h3>你可以在此留下一条匿名信息，且它仅对我可见。</h3>
   <form id="message-form" action="https://formspree.io/f/mpwadnky" method="POST">
-    <textarea name="message" placeholder="输入你的信息..."></textarea>
+    <textarea name="message" id="message-textarea" placeholder="输入你的信息..." oninput="checkInput()"></textarea>
     <button type="submit" id="submit-button" disabled>提交</button>
   </form>
 </div>

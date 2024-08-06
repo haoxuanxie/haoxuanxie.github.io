@@ -47,7 +47,7 @@ title: Home
 <div class="message-box">
   <h3>Leave an anonymous message here. Your message would only be visible to me.</h3>
   <form id="message-form" action="https://formspree.io/f/mpwadnky" method="POST">
-    <textarea name="message" placeholder="Your message..."></textarea>
+    <textarea name="message" id="message-textarea" placeholder="Your message..." oninput="checkInput()"></textarea>
     <button type="submit" id="submit-button" disabled>Submit</button>
   </form>
 </div>
