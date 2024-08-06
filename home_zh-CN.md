@@ -48,6 +48,23 @@ title: 主页
   <h3>你可以在此留下一条匿名信息，且它仅对我可见。</h3>
   <form id="message-form" action="https://formspree.io/f/mpwadnky" method="POST">
     <textarea name="message" placeholder="输入你的信息..."></textarea>
-    <button type="submit">提交</button>
+    <button type="submit" id="submit-button" disabled>提交</button>
   </form>
 </div>
+
+<script>
+    function checkInput() {
+        var textarea = document.getElementById('message-textarea');
+        var submitButton = document.getElementById('submit-button');
+        if (textarea.value.trim() === '') {
+            submitButton.disabled = true;
+        } else {
+            submitButton.disabled = false;
+        }
+    }
+
+    // Call checkInput on page load in case there's pre-filled content
+    window.onload = function() {
+        checkInput();
+    };
+</script>

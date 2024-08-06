@@ -48,6 +48,23 @@ title: Home
   <h3>Leave an anonymous message here. Your message would only be visible to me.</h3>
   <form id="message-form" action="https://formspree.io/f/mpwadnky" method="POST">
     <textarea name="message" placeholder="Your message..."></textarea>
-    <button type="submit">Submit</button>
+    <button type="submit" id="submit-button" disabled>Submit</button>
   </form>
 </div>
+
+<script>
+    function checkInput() {
+        var textarea = document.getElementById('message-textarea');
+        var submitButton = document.getElementById('submit-button');
+        if (textarea.value.trim() === '') {
+            submitButton.disabled = true;
+        } else {
+            submitButton.disabled = false;
+        }
+    }
+
+    // Call checkInput on page load in case there's pre-filled content
+    window.onload = function() {
+        checkInput();
+    };
+</script>
