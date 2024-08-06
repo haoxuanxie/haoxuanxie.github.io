@@ -131,6 +131,12 @@ main {
   margin-top: 10px;
 }
 
+.message-box button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
 .message-box button:hover {
   background-color: #0056b3;
 }
