@@ -199,6 +199,8 @@ main {
   margin-bottom: 20px; /* Space between items */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   background-color: #fff; /* White background */
+  margin-left: 0; /* Adjust this value if necessary */
+  width: calc(100% - 30px); /* Adjust width to fit the container */
 }
 
 .blog-item a {
@@ -209,4 +211,13 @@ main {
 
 .blog-item small {
   color: #666; /* Gray color for date */
+}
+
+ul {
+  padding-left: 0; /* Remove default padding from ul */
+  list-style-type: none; /* Remove bullets */
+}
+
+ul li {
+  margin-left: 0; /* Remove left margin from li */
 }
