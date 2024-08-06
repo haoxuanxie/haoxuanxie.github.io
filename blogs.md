@@ -5,7 +5,6 @@ title: Blogs
 
 # Blogs
 
-<h1>Blogs</h1>
 <ul>
   {% for blog in site.blogs %}
     <li>

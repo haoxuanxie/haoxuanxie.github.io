@@ -27,4 +27,4 @@ navigation:
 collections:
   blogs:
     output: true
-    permalink: /assets/blogs/:path
+    permalink: /blogs/:path
