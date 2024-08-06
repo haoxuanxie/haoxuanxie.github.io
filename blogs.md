@@ -5,6 +5,7 @@ title: Blogs
 
 # Blogs
 
+This page is still under construction. We are sorry for the inconvenience. 
 <ul>
   {% for blog in site.blogs %}
     <div class="blog-item">

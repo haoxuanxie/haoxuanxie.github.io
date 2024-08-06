@@ -5,6 +5,7 @@ title: 博客
 
 # 博客
 
+此页面正在建设中，敬请谅解。
 <ul>
   {% for blog in site.blogs %}
     <div class="blog-item">
