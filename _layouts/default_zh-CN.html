@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="image/x-icon" href="/assets/images/profile_photo.jpg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#" id="translate-link">English</a></li>
+        <li><a href="{{ site.baseurl }}/home_zh-CN">主页</a></li>
+        <li><a href="{{ site.baseurl }}/publications_zh-CN">发表</a></li>
+        <li><a href="{{ site.baseurl }}/blogs_zh-CN">博客</a></li>
+        <li><a href="{{ site.baseurl }}/cv_zh-CN">简历</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <script>
+    document.getElementById('translate-link').addEventListener('click', function(event) {
+      event.preventDefault();
+      var currentUrl = window.location.href;
+      var newUrl = currentUrl + '_zh-CN';
+      window.location.href = newUrl;
+    });
+  </script>
+</body>
+</html>

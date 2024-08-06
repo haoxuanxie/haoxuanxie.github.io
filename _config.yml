@@ -15,3 +15,11 @@ navigation:
     url: /blogs
   - title: CV
     url: /cv
+  - title: 主页
+    url: /home_zh-CN
+  - title: 发表
+    url: /publications_zh-CN
+  - title: 博客
+    url: /blogs_zh-CN
+  - title: 简历
+    url: /cv_zh-CN
