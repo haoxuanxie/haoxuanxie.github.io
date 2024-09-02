@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="image/x-icon" href="/assets/images/profile_photo.jpg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>发表 | Haoxuan Xie's Homepage</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#" id="translate-link">English</a></li>
+        <li><a href="/home_zh-CN">主页</a></li>
+        <li><a href="/publications_zh-CN">发表</a></li>
+        <li><a href="/blogs">博客</a></li>
+        <li><a href="/cv_zh-CN">简历</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 id="发表">发表</h1>
+
+<div class="publication-item">
+  <h2>On Querying Connected Components in Large Temporal Graphs</h2>
+  <p><strong>作者:</strong> <strong>Haoxuan Xie</strong>, Yixiang Fang*, Yuyang Xia, Wensheng Luo, Chenhao Ma</p>
+  <p><strong>发表于:</strong> Proceedings of the ACM on Management of Data, Volume 1, Issue 2 (SIGMOD 2023)</p>
+  <p><strong>DOI:</strong> <a href="https://dl.acm.org/doi/10.1145/3589315">https://dl.acm.org/doi/10.1145/3589315</a></p>
+</div>
+
+  </main>
+  <script>
+    document.getElementById('translate-link').addEventListener('click', function(event) {
+      event.preventDefault();
+      var currentUrl = window.location.href;
+      var newUrl = currentUrl.replace('_zh-CN', '');
+      window.location.href = newUrl;
+    });
+  </script>
+</body>
+</html>

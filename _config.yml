@@ -20,11 +20,6 @@ navigation:
   - title: 发表
     url: /publications_zh-CN
   - title: 博客
-    url: /blogs_zh-CN
+    url: /blogs
   - title: 简历
     url: /cv_zh-CN
-
-collections:
-  blogs:
-    output: true
-    permalink: /blogs/:path

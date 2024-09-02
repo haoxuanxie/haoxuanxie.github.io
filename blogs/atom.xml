@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Haoxuan&#39;s Blog</title>
+  
+  
+  <link href="https://haoxuanxie.github.io/blogs/atom.xml" rel="self"/>
+  
+  <link href="https://haoxuanxie.github.io/blogs/"/>
+  <updated>2024-09-02T14:25:20.501Z</updated>
+  <id>https://haoxuanxie.github.io/blogs/</id>
+  
+  <author>
+    <name>Haoxuan Xie</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>The XOR sum of 4x, 4x + 1, 4x + 2 and 4x + 3 is 0 for any non-negative integer x</title>
+    <link href="https://haoxuanxie.github.io/blogs/2024/09/02/xorsum/"/>
+    <id>https://haoxuanxie.github.io/blogs/2024/09/02/xorsum/</id>
+    <published>2024-09-02T13:19:05.000Z</published>
+    <updated>2024-09-02T14:25:20.501Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;In this article, we would use &lt;mjx-container class=&quot;MathJax&quot; jax=&quot;SVG&quot;&gt;&lt;svg style=&quot;vertical-align: -0.188ex;&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Welcome to my blog!</title>
+    <link href="https://haoxuanxie.github.io/blogs/2024/09/02/hello/"/>
+    <id>https://haoxuanxie.github.io/blogs/2024/09/02/hello/</id>
+    <published>2024-09-02T13:19:04.000Z</published>
+    <updated>2024-09-02T15:20:59.051Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;In my very early ages, I have planned to set up a personal blog. However, all my personal blogs were discarded either because I felt</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
