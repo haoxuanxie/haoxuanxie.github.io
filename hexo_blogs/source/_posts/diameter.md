@@ -1,5 +1,5 @@
 ---
-title: Maintaining the diameter of a growing tree in $O(\log n)$ time
+title: Maintaining the diameter of a growing tree in O(log n) time
 date: 2024-09-03 18:57:20
 tags:
 mathjax: true

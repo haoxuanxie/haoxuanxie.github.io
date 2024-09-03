@@ -6,7 +6,7 @@
   <link href="https://haoxuanxie.github.io/blogs/atom.xml" rel="self"/>
   
   <link href="https://haoxuanxie.github.io/blogs/"/>
-  <updated>2024-09-03T11:50:39.566Z</updated>
+  <updated>2024-09-03T11:52:53.186Z</updated>
   <id>https://haoxuanxie.github.io/blogs/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Maintaining the diameter of a growing tree in $O(&#92;log n)$ time</title>
+    <title>Maintaining the diameter of a growing tree in O(log n) time</title>
     <link href="https://haoxuanxie.github.io/blogs/2024/09/03/diameter/"/>
     <id>https://haoxuanxie.github.io/blogs/2024/09/03/diameter/</id>
     <published>2024-09-03T10:57:20.000Z</published>
-    <updated>2024-09-03T11:50:39.566Z</updated>
+    <updated>2024-09-03T11:52:53.186Z</updated>
     
     
       
