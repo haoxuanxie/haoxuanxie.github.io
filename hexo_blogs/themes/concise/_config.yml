@@ -1,6 +1,6 @@
 menu:
   Homepage: /home
-  RSS: /atom.xml
+  RSS: /blogs/atom.xml
 
 widgets:
 - recent_posts
