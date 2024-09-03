@@ -4,7 +4,7 @@ date: 2024-09-02 21:19:05
 tags:
 mathjax: true
 ---
-In this article, we would use $\oplus$ to represent the bitwise XOR operation between two integers. We observe that: for any $x\in\mathbb N$, $(4x)\oplus(4x+1)\oplus(4x+2)\oplus(4x+3)=0$, and therefore, $\bigoplus_{i=0}^{4y-1}i=0$ for any $\mathbb N^+$.
+In this article, we would use $\oplus$ to represent the bitwise XOR operation between two integers. We observe that: for any $x\in\mathbb N$, $(4x)\oplus(4x+1)\oplus(4x+2)\oplus(4x+3)=0$, and therefore, $\bigoplus_{i=0}^{4y-1}i=0$ for any $y\in\mathbb N^+$.
 
 We now illustrate the formal proof of the above observation.
 
