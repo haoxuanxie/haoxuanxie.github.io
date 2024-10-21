@@ -16,12 +16,14 @@ $$f_n\equiv\frac{\lambda_1^n-\lambda_2^n}{\lambda_1-\lambda_2}$$
 
 Proof: since $f_{n-1}\equiv\frac{\lambda_1^{n-1}-\lambda_2^{n-1}}{\lambda_1-\lambda_2}$ and $f_{n-2}\equiv\frac{\lambda_1^{n-2}-\lambda_2^{n-2}}{\lambda_1-\lambda_2}$,
 
+$$
 \begin{aligned}
-af_{n-1}+f_{n-2}&\equiv\frac{a\lambda_1^{n-1}-a\lambda_2^{n-1}+\lambda_1^{n-2}-\lambda_2^{n-2}}{\lambda_1-\lambda_2}\\
-&\equiv\frac{\lambda_1^{n-2}(a\lambda_1+1)-\lambda_2^{n-2}(a\lambda_2+1)}{\lambda_1-\lambda_2}\\
-&\equiv\frac{\lambda_1^n-\lambda_2^n}{\lambda_1-\lambda_2}\\
+af_{n-1}+f_{n-2}&\equiv\frac{a\lambda_1^{n-1}-a\lambda_2^{n-1}+\lambda_1^{n-2}-\lambda_2^{n-2}}{\lambda_1-\lambda_2}\\\\\\
+&\equiv\frac{\lambda_1^{n-2}(a\lambda_1+1)-\lambda_2^{n-2}(a\lambda_2+1)}{\lambda_1-\lambda_2}\\\\\\
+&\equiv\frac{\lambda_1^n-\lambda_2^n}{\lambda_1-\lambda_2}\\\\\\
 &\equiv f_n
 \end{aligned}
+$$
 
 ## Pisano period
 As aforementioned, the characteristic roots should satisfy $r^2-ar-1\equiv 0$ or $(2r-a)^2\equiv a^2+4(\operatorname{mod}p)$. If $\exists w\in\mathbb{Z}_p$ such that $w^2\equiv a^2+4(\operatorname{mod} p)$, it is straightforward to derive $2\lambda_1-a\equiv w$ and $2\lambda_2-a\equiv-w$ and thus $\lambda_1,\lambda_2\in\mathbb{Z}_p$. Then by Fermat's little theorem, $\lambda_1^{p-1}\equiv\lambda_2^{p-1}\equiv 1$ and:
@@ -42,11 +44,13 @@ $$(w+a)^p2^{-p}+\lambda_2^p\equiv a^p$$
 
 Note that $\lambda_1,\lambda_2,w\not\in\mathbb{Z}_p$ and $2,a\in\mathbb{Z}_p$. Therefore, $\left(2^{-1}\right)^{p-1}\equiv a^{p-1}\equiv 1$ by Fermeat's little theorem:
 
+$$
 \begin{aligned}
-&\quad (w+a)^p+2\lambda_2^p\equiv 2a^p\\
-&\Rightarrow w^p+2\lambda_2^p\equiv a^p\equiv a\\
+&\quad (w+a)^p+2\lambda_2^p\equiv 2a^p\\\\\\
+&\Rightarrow w^p+2\lambda_2^p\equiv a^p\equiv a\\\\\\
 &\Rightarrow \lambda_2^p\equiv 2^{-1}(a-w^p)
 \end{aligned}
+$$
 
 By [quadratic reciprocity](https://en.wikipedia.org/wiki/Quadratic_reciprocity), $w^{p-1}\equiv (a^2+4)^{\frac{p-1}{2}}\equiv -1$, then:
 
