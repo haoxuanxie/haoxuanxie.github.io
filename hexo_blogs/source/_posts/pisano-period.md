@@ -7,7 +7,7 @@ mathjax: true
 ---
 
 ## Problem definition
-The Pisano period of a prime $p$, is defined as the minimum integer $\pi(p)$ satisfying $f_0\equiv f_p,f_1\equiv f_{p+1}(\operatorname{mod} p)$, where $f$ is the Fibonacci sequence. It is well known that for $p\not=2,5$, $\pi(p)$ is either a divisor of $p-1$ or $2p+2$. In this article, we extend this conclusion to any C-finite sequence of the formulae $f_n\equiv af_{n-1}+f_{n-2}(\operatorname{mod} p)$, where $a\in\mathbb{Z}_p$ is a constant.
+The Pisano period of a prime $p$, is defined as the minimum integer $\pi(p)$ satisfying $f_0\equiv f_{\pi(p)},f_1\equiv f_{\pi(p)+1}(\operatorname{mod} p)$, where $f$ is the Fibonacci sequence. It is well known that for $p\not=2,5$, $\pi(p)$ is either a divisor of $p-1$ or $2p+2$. In this article, we extend this conclusion to any C-finite sequence of the formulae $f_n\equiv af_{n-1}+f_{n-2}(\operatorname{mod} p)$, where $a\in\mathbb{Z}_p$ is a constant.
 
 ## Closed form expression
 
@@ -32,7 +32,7 @@ $$f_{n+p-1}\equiv\frac{\lambda_1^{n+p-1}-\lambda_2^{n+p-1}}{\lambda_1-\lambda_2}
 
 which implies that the Pisano period $\pi(p)=p-1$.
 
-If $\not\exists w\in\mathbb{Z}_p$ such that $w^2\equiv a^2+4(\operatorname{mod} p)$, we claim that $\pi(p)\equiv2p+2$.
+If $\not\exists w\in\mathbb{Z}_p$ such that $w^2\equiv a^2+4(\operatorname{mod} p)$, we claim that $\pi(p)=2p+2$.
 
 Proof: since $\lambda_1,\lambda_2$ are the roots of the equation $r^2-ar-1\equiv 0$, $\lambda_1+\lambda_2\equiv a$ and $\lambda_1\lambda_2\equiv -1$.
 
