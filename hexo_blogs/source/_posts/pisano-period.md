@@ -30,9 +30,9 @@ As aforementioned, the characteristic roots should satisfy $r^2-ar-1\equiv 0$ or
 
 $$f_{n+p-1}\equiv\frac{\lambda_1^{n+p-1}-\lambda_2^{n+p-1}}{\lambda_1-\lambda_2}\equiv\frac{\lambda_1^n-\lambda_2^n}{\lambda_1-\lambda_2}\equiv f_{n}$$
 
-which implies that the Pisano period $\pi(p)=p-1$.
+which implies that the Pisano period $\pi(p)|(p-1)$.
 
-If $\not\exists w\in\mathbb{Z}_p$ such that $w^2\equiv a^2+4(\operatorname{mod} p)$, we claim that $\pi(p)=2p+2$.
+If $\not\exists w\in\mathbb{Z}_p$ such that $w^2\equiv a^2+4(\operatorname{mod} p)$, we claim that $\pi(p)|(2p+2)$.
 
 Proof: since $\lambda_1,\lambda_2$ are the roots of the equation $r^2-ar-1\equiv 0$, $\lambda_1+\lambda_2\equiv a$ and $\lambda_1\lambda_2\equiv -1$.
 
