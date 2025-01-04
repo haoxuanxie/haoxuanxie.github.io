@@ -14,8 +14,3 @@ To generate the blog page, run:
 cd hexo_blogs
 hexo generage
 ```
-
-And replace ``blogs`` folder with ``hexo_blogs/public``, and update the favicon of the webpage by replacing line 18 in ``blogs/index.html`` as:
-```sh
-  <link href="/assets/images/profile_photo.jpg" rel="icon">
-```
