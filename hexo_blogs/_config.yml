@@ -124,3 +124,10 @@ archive_generator:
   yearly: true   # Enable yearly archive
   monthly: true  # Enable monthly archive
   daily: false   # Enable daily archive
+
+excerpt:
+  enable: true
+  separator: '<!-- more -->'
+  pruneLength: 150  # The length of the excerpt in characters
+  more_text: 'Read More'  # Optional: Text for the "Read More" link
+  ignoreCodeBlock: true  # Set to true to ignore code blocks in the excerpt

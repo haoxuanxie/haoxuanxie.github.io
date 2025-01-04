@@ -6,7 +6,7 @@
   <link href="https://haoxuanxie.github.io/blogs/atom.xml" rel="self"/>
   
   <link href="https://haoxuanxie.github.io/blogs/"/>
-  <updated>2024-12-26T10:34:31.972Z</updated>
+  <updated>2025-01-04T09:51:25.203Z</updated>
   <id>https://haoxuanxie.github.io/blogs/</id>
   
   <author>
@@ -21,16 +21,11 @@
     <link href="https://haoxuanxie.github.io/blogs/2024/12/26/icpc2024/"/>
     <id>https://haoxuanxie.github.io/blogs/2024/12/26/icpc2024/</id>
     <published>2024-12-26T05:34:16.000Z</published>
-    <updated>2024-12-26T10:34:31.972Z</updated>
+    <updated>2025-01-04T09:51:25.203Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;Preface&quot;&gt;&lt;a href=&quot;#Preface&quot; class=&quot;headerlink&quot; title=&quot;Preface&quot;&gt;&lt;/a&gt;Preface&lt;/h3&gt;&lt;p&gt;ICPC 2024 regional has ended, and our team ranked</summary>
-        
-      
+    <summary type="html">Preface
+ICPC 2024 regional has ended, and our team ranked #20 and #38 in Jakarta and Hanoi sites, respectively. As a final year for participating in ICPC as a contestant, I felt quite disappointed and pitiful for the results. Nevertheless, I enjoy the process for training and learning with all NTU c</summary>
     
     
     
@@ -45,13 +40,10 @@
     <updated>2024-10-22T04:35:57.211Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Problem-definition&quot;&gt;&lt;a href=&quot;#Problem-definition&quot; class=&quot;headerlink&quot; title=&quot;Problem definition&quot;&gt;&lt;/a&gt;Problem definition&lt;/h2&gt;&lt;p&gt;The</summary>
-        
-      
+    <summary type="html">Problem definition
+The Pisano period of a prime , is defined as the minimum integer satisfying , where is the Fibonacci sequence. It is well known that for , is either a divisor of or . In this article, we extend this conclusion to any C-finite sequence of the formulae , where is a constant.
+
+Closed</summary>
     
     
     
@@ -66,13 +58,8 @@
     <updated>2024-10-21T13:04:41.567Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Problem-definition&quot;&gt;&lt;a href=&quot;#Problem-definition&quot; class=&quot;headerlink&quot; title=&quot;Problem definition&quot;&gt;&lt;/a&gt;Problem definition&lt;/h2&gt;&lt;p&gt;An</summary>
-        
-      
+    <summary type="html">Problem definition
+An undirected graph is -coloring if all vertices could be colored with at most different colors, such that all adjacent vertices have different colors. For example, a -clique is -coloring, and a tree is 2-coloring. The densest subgraph of a graph , is an induced subgraph of a vert</summary>
     
     
     
@@ -87,13 +74,9 @@
     <updated>2024-09-03T11:52:53.186Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;A tree is a connected undirected graph with &lt;mjx-container class=&quot;MathJax&quot; jax=&quot;SVG&quot;&gt;&lt;svg style=&quot;vertical-align: -0.025ex;&quot;</summary>
-        
-      
+    <summary type="html">A tree is a connected undirected graph with nodes and edges. The diameter of a tree is the largest distance between two nodes in the tree.
+
+We define a growing tree as follows: at each moment, a new node is inserted into the tree, and is connected to some node in the original tree. What is the diame</summary>
     
     
     
@@ -108,13 +91,25 @@
     <updated>2024-09-03T10:51:36.507Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;In this article, we would use &lt;mjx-container class=&quot;MathJax&quot; jax=&quot;SVG&quot;&gt;&lt;svg style=&quot;vertical-align: -0.188ex;&quot;</summary>
-        
-      
+    <summary type="html">In this article, we would use to represent the bitwise XOR operation between two integers. We observe that: for any , , and therefore, for any .
+
+We now illustrate the formal proof of the above observation.
+
+We firstly write into a binary format, i.e.:
+
+
+
+Let . Then:
+
+
+
+
+
+
+
+
+
+Then the binary formats</summary>
     
     
     
@@ -129,13 +124,7 @@
     <updated>2024-09-03T10:50:07.477Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;In my very early ages, I have planned to set up a personal blog. However, all my personal blogs were discarded either because I felt</summary>
-        
-      
+    <summary type="html">In my very early ages, I have planned to set up a personal blog. However, all my personal blogs were discarded either because I felt tired to maintain it or I felt nobody was going to read my posts. And as you see, this is my another attempt, and I would try my best to maintain this blog for this ti</summary>
     
     
     
