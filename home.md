@@ -44,12 +44,15 @@ title: Home
   </div>
 </div>
 
-<div class="message-box">
-  <h3>Leave an anonymous message here. Your message would only be visible to me.</h3>
-  <form id="message-form" action="https://formspree.io/f/mpwadnky" method="POST">
-    <textarea name="message" id="message-textarea" placeholder="Your message..." oninput="checkInput()"></textarea>
-    <button type="submit" id="submit-button" disabled>Submit</button>
-  </form>
+<div class="hero">
+  <div class="message-box">
+    <h3>Leave an anonymous message here. Your message would only be visible to me.</h3>
+    <form id="message-form" action="https://formspree.io/f/mpwadnky" method="POST">
+      <textarea name="message" id="message-textarea" placeholder="Your message..." oninput="checkInput()"></textarea>
+      <br>
+      <button type="submit" id="submit-button" disabled>Submit</button>
+    </form>
+  </div>
 </div>
 
 <script>

@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -11,6 +11,12 @@ header {
   color: #fff;
   padding: 10px 20px;
   text-align: right;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to bottom, #f8f8f8, #e0e0e0);
 }
 
 nav ul {
@@ -112,7 +118,7 @@ main {
 
 .message-box textarea {
   width: 100%;
-  max-width: 600px; /* Increased width for the text area */
+  max-width: 500px; /* Increased width for the text area */
   height: 150px; /* Increased height for better usability */
   padding: 10px;
   border: 1px solid #ccc;

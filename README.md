@@ -12,5 +12,5 @@ Remember to add ``mathjax: true`` at the beginning of the blog post.
 To generate the blog page, run:
 ```sh
 cd hexo_blogs
-hexo generage
+hexo generate
 ```
