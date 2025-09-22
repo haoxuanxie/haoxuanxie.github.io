@@ -87,6 +87,7 @@ main {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   flex: 1 1 0; /* responsive width, min 300px */
   align-items: center;
+  text-align: center;
 }
 
 .left-side {
@@ -199,6 +200,7 @@ main {
   display: flex;
   gap: 10px; /* Space between icons */
   margin-top: 10px;
+  justify-content: center;
 }
 
 .social-icons svg {
