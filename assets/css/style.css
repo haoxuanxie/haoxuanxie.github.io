@@ -187,12 +187,11 @@ main {
     border-radius: 0; /* remove rounded corners */
     box-shadow: none; /* remove shadow */
     flex: 1 1 auto;   /* normal flow */
-    margin-top: 20px; 
     width: 100%;      /* full width */
   }
 
   .profile-photo {
-    max-width: 80%; /* optional: make photo smaller on mobile */
+    max-width: 95%; /* optional: make photo smaller on mobile */
   }
 }
 
