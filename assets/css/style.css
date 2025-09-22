@@ -169,21 +169,30 @@ main {
   .about-container {
     flex-direction: column;
     align-items: center; /* make children take full width */
-    gap: 10px; /* smaller gap on mobile */
   }
 
-  .left-side, .right-side {
+  .left-side {
     background: none; /* remove white background */
     padding: 0;       /* remove inner padding */
     border-radius: 0; /* remove rounded corners */
     box-shadow: none; /* remove shadow */
     flex: 1 1 auto;   /* normal flow */
     width: 100%;      /* full width */
+    text-align: center; /* center the content */
+  }
+
+  .right-side {
+    background: none; /* remove white background */
+    padding: 0;       /* remove inner padding */
+    border-radius: 0; /* remove rounded corners */
+    box-shadow: none; /* remove shadow */
+    flex: 1 1 auto;   /* normal flow */
+    margin-top: 20px; 
+    width: 100%;      /* full width */
   }
 
   .profile-photo {
     max-width: 80%; /* optional: make photo smaller on mobile */
-    margin: 0 auto 10px auto; /* center photo with some bottom margin */
   }
 }
 
