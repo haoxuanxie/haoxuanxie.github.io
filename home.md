@@ -39,8 +39,13 @@ title: Home
   </div>
   <div class="right-side">
     <p>Welcome to my homepage!</p>
-    <p>I'm currently a PhD student at <a href="https://www.ntu.edu.sg/computing">College of Computing and Data Science</a>, <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>. Prior to my PhD study, I obtained my B.Eng. degree at <a href="https://www.cuhk.edu.cn">The Chinese University of Hong Kong, Shenzhen</a>, where I published my first <a href="https://sigmod.org/">SIGMOD</a> paper supervised by <a href="https://fangyixiang.github.io/">Prof. Yixiang Fang</a>. I also interned at <a href="https://www.pingcap.com/">PingCAP</a> and <a href="https://www.tencent.com/">Tencent</a>. My research interest focuses on graph algorithms and graph storage, but I'm open-minded to various fields and collaborations.</p>
-    <p>Apart from research, I'm quite interested in <a href="https://cp-algorithms.com/index.html">Competitive Programming</a>. I have participated in lots of programming contests (e.g., <a href="https://news.icpc.global/">ICPC</a>) worldwide and achieved a <span style="color: #a0a;">candidate master</span> rating at <a href="https://codeforces.com/">Codeforces</a>. Most of my research ideas are inspired from my experience in competitve programming.</p>
+    <p>I'm currently a PhD candidate at <a href="https://www.ntu.edu.sg/computing">College of Computing and Data Science</a>, <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>. Prior to my PhD study, I obtained my B.Eng. degree at <a href="https://www.cuhk.edu.cn">The Chinese University of Hong Kong, Shenzhen</a>, where I published my first paper supervised by <a href="https://fangyixiang.github.io/">Prof. Yixiang Fang</a>. I also interned at <a href="https://www.pingcap.com/">PingCAP</a> and <a href="https://www.tencent.com/">Tencent</a>. My research interest spans:
+    <ul>
+      <li>Graph storage, processing and algorithms</li>
+      <li>LSM-tree optimization on key-value stores</li>
+      <li>I'm also open-minded to various fields and collaborations</li>
+    </ul>
+    <p>Apart from research, I'm quite interested in <a href="https://cp-algorithms.com/index.html">Competitive Programming</a>. I have participated in lots of programming contests (e.g., <a href="https://news.icpc.global/">ICPC</a>) worldwide and achieved a <span style="color: #a0a;">candidate master</span> rating at <a href="https://codeforces.com/">Codeforces</a>. Many of my research ideas are also inspired from my experience in competitve programming.</p>
   </div>
 </div>
 
