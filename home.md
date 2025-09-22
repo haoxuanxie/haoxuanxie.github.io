@@ -40,7 +40,7 @@ title: Home
   <div class="right-side">
     <p>Welcome to my homepage!</p>
     <p>I'm currently a PhD candidate at <a href="https://www.ntu.edu.sg/computing">College of Computing and Data Science</a>, <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>. Prior to my PhD study, I obtained my B.Eng. degree at <a href="https://www.cuhk.edu.cn">The Chinese University of Hong Kong, Shenzhen</a>, where I published my first paper supervised by <a href="https://fangyixiang.github.io/">Prof. Yixiang Fang</a>. I also interned at <a href="https://www.pingcap.com/">PingCAP</a> and <a href="https://www.tencent.com/">Tencent</a>. My research interest spans:</p>
-    <ul>
+    <ul style="list-style: disc; padding-left: 20px; margin-left: 20px;">
       <li>Graph storage, processing and algorithms</li>
       <li>LSM-tree optimization on key-value stores</li>
       <li>I'm also open-minded to various fields and collaborations</li>
