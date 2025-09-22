@@ -164,25 +164,26 @@ main {
   border: none;
 }
 
-/* Media Queries for Responsive Design */
+/* Media query for mobile phones */
 @media (max-width: 768px) {
   .about-container {
     flex-direction: column;
-    align-items: center;
+    align-items: stretch; /* make children take full width */
+    gap: 10px; /* smaller gap on mobile */
   }
 
-  .left-side {
-    max-width: 100%;
-    text-align: center;
+  .left-side, .right-side {
+    background: none; /* remove white background */
+    padding: 0;       /* remove inner padding */
+    border-radius: 0; /* remove rounded corners */
+    box-shadow: none; /* remove shadow */
+    flex: 1 1 auto;   /* normal flow */
+    width: 100%;      /* full width */
   }
 
   .profile-photo {
-    max-width: 80%;
-  }
-
-  .right-side {
-    margin-top: 20px;
-    width: 100%;
+    max-width: 80%; /* optional: make photo smaller on mobile */
+    margin: 0 auto 10px auto; /* center photo with some bottom margin */
   }
 }
 
