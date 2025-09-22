@@ -40,7 +40,7 @@ title: 主页
   <div class="right-side">
     <p>欢迎来到我的主页！</p>
     <p>我目前是<a href="https://www.ntu.edu.sg/">南洋理工大学</a>的一名博士生，就读于<a href="https://www.ntu.edu.sg/computing">计算与数据科学学院</a>。 此前，我在<a href="https://www.cuhk.edu.cn">香港中文大学（深圳）</a>就读本科课程并取得了工学学士学位，在此期间，我在<a href="https://fangyixiang.github.io/">方一向教授</a>的指导下发表了我的第一篇论文。 我曾在 <a href="https://www.pingcap.com/">PingCAP</a> 和<a href="https://www.tencent.com/">腾讯</a>公司实习。我的科研方向包括：</p>
-    <ul style="list-style: disc; padding-left: 20px; margin-left: 20px;">
+    <ul style="list-style: disc; margin: 0; padding-left: 1em;">
       <li>图算法与图存储</li>
       <li>LSM树在键值存储中的优化</li>
       <li>我对许多其他领域都感兴趣且有所了解，欢迎大家与我沟通交流</li>
