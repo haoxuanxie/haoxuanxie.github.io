@@ -6,6 +6,13 @@ title: 发表
 # 发表
 
 <div class="publication-item">
+  <h2>ArceKV: Towards Workload-driven LSM-compactions for Key-Value Store Under Dynamic Workloads</h2>
+  <p><strong>作者:</strong> Junfeng Liu, <strong>Haoxuan Xie</strong>, Siqiang Luo</p>
+  <p><strong>发表于:</strong> to be appear in VLDB 2026</p>
+  <p><strong>DOI:</strong> <a href="https://arxiv.org/abs/2508.03565">10.48550/arXiv.2508.03565</a></p>
+</div>
+
+<div class="publication-item">
   <h2>Finding Near-Optimal Maximum Set of Disjoint k-Cliques in Real-World Social Networks</h2>
   <p><strong>作者:</strong> Xin Chen, Wenqing Lin, <strong>Haoxuan Xie</strong>, Sibo Wang, Siqiang Luo</p>
   <p><strong>发表于:</strong> 2025 IEEE 41st International Conference on Data Engineering (ICDE 2025)</p>
