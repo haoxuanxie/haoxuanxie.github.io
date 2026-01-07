@@ -6,9 +6,16 @@ title: 发表
 # 发表
 
 <div class="publication-item">
+  <h2>RadixGraph: A Fast, Space-Optimized Data Structure for Dynamic Graph Storage</h2>
+  <p><strong>作者:</strong> <strong>Haoxuan Xie</strong>, Junfeng Liu, Siqiang Luo, Kai Wang</p>
+  <p><strong>发表于:</strong> to appear in SIGMOD 2026</p>
+  <p><strong>DOI:</strong> <a href="https://arxiv.org/abs/2601.01444">10.48550/arXiv.2601.01444</a></p>
+</div>
+
+<div class="publication-item">
   <h2>ArceKV: Towards Workload-driven LSM-compactions for Key-Value Store Under Dynamic Workloads</h2>
   <p><strong>作者:</strong> Junfeng Liu, <strong>Haoxuan Xie</strong>, Siqiang Luo</p>
-  <p><strong>发表于:</strong> to be appear in VLDB 2026</p>
+  <p><strong>发表于:</strong> to appear in VLDB 2026</p>
   <p><strong>DOI:</strong> <a href="https://arxiv.org/abs/2508.03565">10.48550/arXiv.2508.03565</a></p>
 </div>
 
