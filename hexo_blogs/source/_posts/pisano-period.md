@@ -18,9 +18,9 @@ Proof: since $f_{n-1}\equiv\frac{\lambda_1^{n-1}-\lambda_2^{n-1}}{\lambda_1-\lam
 
 $$
 \begin{aligned}
-af_{n-1}+f_{n-2}&\equiv\frac{a\lambda_1^{n-1}-a\lambda_2^{n-1}+\lambda_1^{n-2}-\lambda_2^{n-2}}{\lambda_1-\lambda_2}\\\\\\
-&\equiv\frac{\lambda_1^{n-2}(a\lambda_1+1)-\lambda_2^{n-2}(a\lambda_2+1)}{\lambda_1-\lambda_2}\\\\\\
-&\equiv\frac{\lambda_1^n-\lambda_2^n}{\lambda_1-\lambda_2}\\\\\\
+af_{n-1}+f_{n-2}&\equiv\frac{a\lambda_1^{n-1}-a\lambda_2^{n-1}+\lambda_1^{n-2}-\lambda_2^{n-2}}{\lambda_1-\lambda_2}\\
+&\equiv\frac{\lambda_1^{n-2}(a\lambda_1+1)-\lambda_2^{n-2}(a\lambda_2+1)}{\lambda_1-\lambda_2}\\
+&\equiv\frac{\lambda_1^n-\lambda_2^n}{\lambda_1-\lambda_2}\\
 &\equiv f_n
 \end{aligned}
 $$
@@ -46,8 +46,8 @@ Note that $\lambda_1,\lambda_2,w\not\in\mathbb{Z}_p$ and $2,a\in\mathbb{Z}_p$. T
 
 $$
 \begin{aligned}
-&\quad (w+a)^p+2\lambda_2^p\equiv 2a^p\\\\\\
-&\Rightarrow w^p+2\lambda_2^p\equiv a^p\equiv a\\\\\\
+&\quad (w+a)^p+2\lambda_2^p\equiv 2a^p\\
+&\Rightarrow w^p+2\lambda_2^p\equiv a^p\equiv a\\
 &\Rightarrow \lambda_2^p\equiv 2^{-1}(a-w^p)
 \end{aligned}
 $$
