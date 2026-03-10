@@ -22,119 +22,7 @@
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   
 
-<meta name="generator" content="Hexo 7.3.0"><style>mjx-container[jax="SVG"] {
-  direction: ltr;
-}
-
-mjx-container[jax="SVG"] > svg {
-  overflow: visible;
-}
-
-mjx-container[jax="SVG"][display="true"] {
-  display: block;
-  text-align: center;
-  margin: 1em 0;
-}
-
-mjx-container[jax="SVG"][justify="left"] {
-  text-align: left;
-}
-
-mjx-container[jax="SVG"][justify="right"] {
-  text-align: right;
-}
-
-g[data-mml-node="merror"] > g {
-  fill: red;
-  stroke: red;
-}
-
-g[data-mml-node="merror"] > rect[data-background] {
-  fill: yellow;
-  stroke: none;
-}
-
-g[data-mml-node="mtable"] > line[data-line] {
-  stroke-width: 70px;
-  fill: none;
-}
-
-g[data-mml-node="mtable"] > rect[data-frame] {
-  stroke-width: 70px;
-  fill: none;
-}
-
-g[data-mml-node="mtable"] > .mjx-dashed {
-  stroke-dasharray: 140;
-}
-
-g[data-mml-node="mtable"] > .mjx-dotted {
-  stroke-linecap: round;
-  stroke-dasharray: 0,140;
-}
-
-g[data-mml-node="mtable"] > svg {
-  overflow: visible;
-}
-
-[jax="SVG"] mjx-tool {
-  display: inline-block;
-  position: relative;
-  width: 0;
-  height: 0;
-}
-
-[jax="SVG"] mjx-tool > mjx-tip {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-mjx-tool > mjx-tip {
-  display: inline-block;
-  padding: .2em;
-  border: 1px solid #888;
-  font-size: 70%;
-  background-color: #F8F8F8;
-  color: black;
-  box-shadow: 2px 2px 5px #AAAAAA;
-}
-
-g[data-mml-node="maction"][data-toggle] {
-  cursor: pointer;
-}
-
-mjx-status {
-  display: block;
-  position: fixed;
-  left: 1em;
-  bottom: 1em;
-  min-width: 25%;
-  padding: .2em .4em;
-  border: 1px solid #888;
-  font-size: 90%;
-  background-color: #F8F8F8;
-  color: black;
-}
-
-foreignObject[data-mjx-xml] {
-  font-family: initial;
-  line-height: normal;
-  overflow: visible;
-}
-
-.MathJax path {
-  stroke-width: 3;
-}
-
-mjx-container[display="true"] {
-  overflow: auto hidden;
-}
-
-mjx-container[display="true"] + br {
-  display: none;
-}
-</style></head>
+<meta name="generator" content="Hexo 7.3.0"></head>
 
 
 <body>
@@ -277,9 +165,7 @@ ICPC 2024 regional has ended, and our team ranked #20 and #38 in Jakarta and Han
     <div class="entry">
       
         Problem definition
-The Pisano period of a prime , is defined as the minimum integer satisfying , where is the Fibonacci sequence. It is well known that for , is either a divisor of or . In this article, we extend this conclusion to any C-finite sequence of the formulae , where is a constant.
-
-Closed
+The Pisano period of a prime ppp, is defined as the minimum integer π(p)\pi(p)π(p) satisfying f0≡fπ(p),f1≡fπ(p)+1(mod⁡p)f_0\equiv f_{\pi(p)},f_1\equiv f_{\pi(p)+1}(\operatorname{mod} p)f0​≡fπ(p)​,f1​≡fπ(p)+1​(modp), where fff is the Fibonacci sequence. It is well known that for p=
       
     </div>
       
@@ -315,7 +201,7 @@ Closed
     <div class="entry">
       
         Problem definition
-An undirected graph is -coloring if all vertices could be colored with at most different colors, such that all adjacent vertices have different colors. For example, a -clique is -coloring, and a tree is 2-coloring. The densest subgraph of a graph , is an induced subgraph of a vert
+An undirected graph GGG is kkk-coloring if all vertices could be colored with at most kkk different colors, such that all adjacent vertices have different colors. For example, a kkk-clique is kkk-coloring, and a tree is 2-coloring. The densest subgraph of a graph GGG, is an induce
       
     </div>
       
@@ -350,9 +236,9 @@ An undirected graph is -coloring if all vertices could be colored with at most d
     </header>
     <div class="entry">
       
-        A tree is a connected undirected graph with nodes and edges. The diameter of a tree is the largest distance between two nodes in the tree.
+        A tree is a connected undirected graph with nnn nodes and n−1n-1n−1 edges. The diameter of a tree is the largest distance between two nodes in the tree.
 
-We define a growing tree as follows: at each moment, a new node is inserted into the tree, and is connected to some node in the original tree. What is the diame
+We define a growing tree as follows: at each moment, a new node uuu is inserted into the tree, and uuu is connected to some node vvv in the origin
       
     </div>
       
@@ -387,25 +273,7 @@ We define a growing tree as follows: at each moment, a new node is inserted into
     </header>
     <div class="entry">
       
-        In this article, we would use to represent the bitwise XOR operation between two integers. We observe that: for any , , and therefore, for any .
-
-We now illustrate the formal proof of the above observation.
-
-We firstly write into a binary format, i.e.:
-
-
-
-Let . Then:
-
-
-
-
-
-
-
-
-
-Then the binary formats
+        In this article, we would use ⊕\oplus⊕ to represent the bitwise XOR operation between two integers. We observe that: for any x∈Nx\in\mathbb Nx∈N, (4x)⊕(4x+1)⊕(4x+2)⊕(4x+3)=0(4x)\oplus(4x+1)\oplus(4x+2)\oplus(4x+3)=0(4x)⊕(4x+1)⊕(4x+2)⊕(4x+3)=0, and therefore, ⨁i=04y−1i=0\bigoplus_{i=0}^{4y-1}i=0⨁i=04
       
     </div>
       

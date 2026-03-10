@@ -56,9 +56,7 @@ ICPC 2024 regional has ended, and our team ranked #20 and #38 in Jakarta and Han
     
     
     <summary type="html">Problem definition
-The Pisano period of a prime , is defined as the minimum integer satisfying , where is the Fibonacci sequence. It is well known that for , is either a divisor of or . In this article, we extend this conclusion to any C-finite sequence of the formulae , where is a constant.
-
-Closed</summary>
+The Pisano period of a prime ppp, is defined as the minimum integer π(p)&#92;pi(p)π(p) satisfying f0≡fπ(p),f1≡fπ(p)+1(mod⁡p)f_0&#92;equiv f_{&#92;pi(p)},f_1&#92;equiv f_{&#92;pi(p)+1}(&#92;operatorname{mod} p)f0​≡fπ(p)​,f1​≡fπ(p)+1​(modp), where fff is the Fibonacci sequence. It is well known that for p=</summary>
     
     
     
@@ -74,7 +72,7 @@ Closed</summary>
     
     
     <summary type="html">Problem definition
-An undirected graph is -coloring if all vertices could be colored with at most different colors, such that all adjacent vertices have different colors. For example, a -clique is -coloring, and a tree is 2-coloring. The densest subgraph of a graph , is an induced subgraph of a vert</summary>
+An undirected graph GGG is kkk-coloring if all vertices could be colored with at most kkk different colors, such that all adjacent vertices have different colors. For example, a kkk-clique is kkk-coloring, and a tree is 2-coloring. The densest subgraph of a graph GGG, is an induce</summary>
     
     
     
@@ -89,9 +87,9 @@ An undirected graph is -coloring if all vertices could be colored with at most d
     <updated>2024-09-03T11:52:53.186Z</updated>
     
     
-    <summary type="html">A tree is a connected undirected graph with nodes and edges. The diameter of a tree is the largest distance between two nodes in the tree.
+    <summary type="html">A tree is a connected undirected graph with nnn nodes and n−1n-1n−1 edges. The diameter of a tree is the largest distance between two nodes in the tree.
 
-We define a growing tree as follows: at each moment, a new node is inserted into the tree, and is connected to some node in the original tree. What is the diame</summary>
+We define a growing tree as follows: at each moment, a new node uuu is inserted into the tree, and uuu is connected to some node vvv in the origin</summary>
     
     
     
@@ -106,25 +104,7 @@ We define a growing tree as follows: at each moment, a new node is inserted into
     <updated>2024-09-03T10:51:36.507Z</updated>
     
     
-    <summary type="html">In this article, we would use to represent the bitwise XOR operation between two integers. We observe that: for any , , and therefore, for any .
-
-We now illustrate the formal proof of the above observation.
-
-We firstly write into a binary format, i.e.:
-
-
-
-Let . Then:
-
-
-
-
-
-
-
-
-
-Then the binary formats</summary>
+    <summary type="html">In this article, we would use ⊕&#92;oplus⊕ to represent the bitwise XOR operation between two integers. We observe that: for any x∈Nx&#92;in&#92;mathbb Nx∈N, (4x)⊕(4x+1)⊕(4x+2)⊕(4x+3)=0(4x)&#92;oplus(4x+1)&#92;oplus(4x+2)&#92;oplus(4x+3)=0(4x)⊕(4x+1)⊕(4x+2)⊕(4x+3)=0, and therefore, ⨁i=04y−1i=0&#92;bigoplus_{i=0}^{4y-1}i=0⨁i=04</summary>
     
     
     

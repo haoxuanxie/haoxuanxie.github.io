@@ -98,16 +98,14 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: concise
 
+markdown:
+  plugins:
+    - '@renbaoshuo/markdown-it-katex'
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-
-mathjax:
-  tags: all # default is 'none', other options are 'ams', 'all'
-  single_dollars: true # enables parsing of single dollar signs ($) for inline math
-  cjk_width: 0.9 # default is 0.9
-  normal_width: 0.6 # default is 0.6
 
 feed:
   type: atom
