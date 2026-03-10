@@ -6,7 +6,7 @@
   <link href="https://haoxuanxie.github.io/blogs/atom.xml" rel="self"/>
   
   <link href="https://haoxuanxie.github.io/blogs/"/>
-  <updated>2025-01-04T09:51:25.203Z</updated>
+  <updated>2026-03-10T08:38:41.770Z</updated>
   <id>https://haoxuanxie.github.io/blogs/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Does nearest neighbor distance approach farthest neighbor distance in high-dimensional space?</title>
+    <link href="https://haoxuanxie.github.io/blogs/2026/03/10/ANN/"/>
+    <id>https://haoxuanxie.github.io/blogs/2026/03/10/ANN/</id>
+    <published>2026-03-10T07:39:54.000Z</published>
+    <updated>2026-03-10T08:38:41.770Z</updated>
+    
+    
+    <summary type="html">I was reading a classical ANN paper that discusses the cases when the distance difference between the nearest neighbor and the farthest neighbor becomes negligible in high-dimensional space. In Section 3.5.3, it provides an interesting manually constructed example, but without detailed proof steps. </summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>A reflection on ICPC 2024</title>
