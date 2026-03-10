@@ -15,7 +15,7 @@ The conclusion in the paper is $\frac{1}{9}m^2+\frac{1}{3}m+o(m)$, but my result
 **Solution:** The expected distance between $\vec P_m$ and $\vec Q_m$ could be computed as follows:
 
 $$
-E\left[\|\vec P_m-\vec Q_m\|_2^2\right]=E\left[\sum_{i=1}^m (P_i-Q_i)^2\right]=\sum_{i=1}^m E\left[(P_i-Q_i)^2\right]
+E\left[||\vec P_m-\vec Q_m||_2^2\right]=E\left[\sum_{i=1}^m (P_i-Q_i)^2\right]=\sum_{i=1}^m E\left[(P_i-Q_i)^2\right]
 $$
 
 Since $Var(P_i-Q_i)=E[(P_i-Q_i)^2]-(E[P_i-Q_i])^2$ and $E[P_i-Q_i]=0$, the above formulae transforms to solving:
@@ -35,17 +35,18 @@ How to solve the recurrence (I do not know how, following is GPT's answer but I 
 - Next, we find a particular solution to the non-homogeneous recurrence. We can try a particular solution of the form $Var(X_i)=A*i+B$ for some constants $A$ and $B$. Substituting this into the original recurrence gives us:
 
 $$
-\begin{align*}
+\begin{align}
 &\quad A*i+B = \frac{1}{12}i + \frac{1}{4}(A*(i-1)+B)
 \\&\Rightarrow A*i+B=\left(\frac{1}{12}+\frac{1}{4}A\right)i+\frac{1}{4}(B-A)
-\end{align*}
+\end{align}
 $$
 
 - We need to match the coefficients of $i$ and the constant terms on both sides of the equation. This gives us the following system of equations:
 
 $$
 \begin{cases}
-A=\frac{1}{12}+\frac{1}{4}A\\
+A=\frac{1}{12}+\frac{1}{4}A
+\\
 B=\frac{1}{4}(B-A)
 \end{cases}
 $$
@@ -59,8 +60,9 @@ $$Var(X_i)=\frac{1}{27}(1/4)^i+\frac{1}{9}i-\frac{1}{27}$$
 Now back to our goal, we need to summarize $2Var(X_i)$ for $i=1,2,\cdots,m$ to get the expected distance between $\vec P_m$ and $\vec Q_m$:
 
 $$
-\begin{align*}E\left[\|\vec P_m-\vec Q_m\|_2^2\right]&=\sum_{i=1}^m 2Var(X_i)=\frac{2}{81}\left(1-\frac{1}{4^m}\right)+\frac{1}{9}m(m+1)-\frac{2}{27}m\\&=\frac{1}{9}m^2+\frac{1}{27}m+o(m)
-\end{align*}
+\begin{align}
+E\left[\|\vec P_m-\vec Q_m\|_2^2\right]&=\sum_{i=1}^m 2Var(X_i)=\frac{2}{81}\left(1-\frac{1}{4^m}\right)+\frac{1}{9}m(m+1)-\frac{2}{27}m\\&=\frac{1}{9}m^2+\frac{1}{27}m+o(m)
+\end{align}
 $$
 
-I am not writing the variance of distance here since it is much more complicated. Anyway, the difference of our results does not affect the main solution of the paper.
+I am not writing the variance of distance here since it is much more complicated. Anyway, the difference of our results does not affect the main conclusion of the paper.
