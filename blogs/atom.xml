@@ -6,7 +6,7 @@
   <link href="https://haoxuanxie.github.io/blogs/atom.xml" rel="self"/>
   
   <link href="https://haoxuanxie.github.io/blogs/"/>
-  <updated>2026-03-10T08:45:17.140Z</updated>
+  <updated>2026-03-25T10:20:20.678Z</updated>
   <id>https://haoxuanxie.github.io/blogs/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Optimal Party Grouping</title>
+    <link href="https://haoxuanxie.github.io/blogs/2026/03/25/Optimal-Party-Grouping/"/>
+    <id>https://haoxuanxie.github.io/blogs/2026/03/25/Optimal-Party-Grouping/</id>
+    <published>2026-03-25T09:37:37.000Z</published>
+    <updated>2026-03-25T10:20:20.678Z</updated>
+    
+    
+    <summary type="html">Goal
+You have nnn friends and want to invite kkk friends for a party. You want to find such a kkk-group such that these friends, when getting together, feel least embarrassed.
+
+I found this problem interesting and practical in my daily life. There are several views for solving the problem:
+
+ * Socia</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Does nearest neighbor distance approach farthest neighbor distance in high-dimensional space?</title>
