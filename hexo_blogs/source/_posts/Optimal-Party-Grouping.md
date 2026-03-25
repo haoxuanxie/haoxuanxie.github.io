@@ -12,7 +12,15 @@ I found this problem interesting and practical in my daily life. There are sever
 - Embedding view: if you know the embeddings (e.g., interests, identities) of your friends, you can minimize the embarrassment by forming a group with most common features, which can be transformed into a distance minimization problem.
 
 ## Solution based on social networks
-![Social network view](../assets/group_example.pdf)
+<iframe
+  src="/blogs/assets/group_example.pdf"
+  width="100%"
+  height="520"
+  style="border: 1px solid #ddd; border-radius: 8px;"
+>
+</iframe>
+
+[Open the PDF directly](/blogs/assets/group_example.pdf)
 
 We can formalize the problem as: given a graph $G=(V,E)$ with a root vertex $u$ such that every other vertex is connected to $u$, find a subset $S\subseteq V$ such that $u\in S$ and $|S|=k+1$ such that the density of the subgraph induced by $S$ is maximized. The density of a subgraph is defined as $\frac{|E(S)|}{|S|}$, where $E(S)$ is the set of edges in the subgraph induced by $S$.
 
