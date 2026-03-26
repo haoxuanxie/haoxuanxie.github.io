@@ -26,7 +26,7 @@ We can formalize the problem as: given a graph $G=(V,E)$ with a root vertex $u$ 
 
 There is a simple greedy solution using $O(n\log n+m-km/n)$ time: each round we locate the vertex with minimum degree and remove it from the graph until only $k+1$ vertices are left. Note that $u$ will not be removed since it has the largest degree. It is straightforward to verify the correctness of the solution.
 
-**UPD: The above greedy solution is wrong. A counterexample can be constructed by conneting $u$ with a $k$-clique and a large-enough complete bipartite graph. Then the clique will be incorrectly pruned.**
+**UPD: The above greedy solution is wrong.** A counterexample can be constructed by conneting $u$ with a $k$-clique and a large-enough complete bipartite graph. Then the clique will be incorrectly pruned.
 
 We can prove this problem is NP-hard by reducing from size-$k$ densest subgraph problem, which aims to find a densest subgraph with exactly $k$ vertices.
 
