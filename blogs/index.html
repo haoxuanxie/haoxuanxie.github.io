@@ -79,6 +79,81 @@
 
 
 
+  <article class="post">
+  <div class="post-content">
+    <header>
+      
+  
+    <h1 class="title"><a href="/blogs/2026/03/25/Optimal-Party-Grouping/">Optimal Party Grouping</a></h1>
+  
+
+      
+        <time datetime="2026-03-25T09:37:37.000Z">2026-03-25</time>
+      
+    </header>
+    <div class="entry">
+      
+        Goal
+You have nnn friends and want to invite kkk friends for a party. You want to find such a kkk-group such that these friends, when getting together, feel least embarrassed.
+
+I found this problem interesting and practical in my daily life. There are several views for solving the problem:
+
+ * Socia
+      
+    </div>
+      
+        
+        <footer>
+          <div class="alignleft">
+            <a href="/blogs/2026/03/25/Optimal-Party-Grouping/#more" class="more-link">Read More ›</a>
+          </div>
+        
+        
+      
+      <div class="clearfix"></div>
+      </footer>
+  </div>
+</article>
+
+
+
+
+
+  <article class="blog">
+  <div class="post-content">
+    <header>
+      
+  
+    <h1 class="title"><a href="/blogs/2026/03/10/ANN/">Does nearest neighbor distance approach farthest neighbor distance in high-dimensional space?</a></h1>
+  
+
+      
+        <time datetime="2026-03-10T07:39:54.000Z">2026-03-10</time>
+      
+    </header>
+    <div class="entry">
+      
+        I was reading a classical ANN paper that discusses the cases when the distance difference between the nearest neighbor and the farthest neighbor becomes negligible in high-dimensional space. In Section 3.5.3, it provides an interesting manually constructed example, but without detailed proof steps. 
+      
+    </div>
+      
+        
+        <footer>
+          <div class="alignleft">
+            <a href="/blogs/2026/03/10/ANN/#more" class="more-link">Read More ›</a>
+          </div>
+        
+        
+      
+      <div class="clearfix"></div>
+      </footer>
+  </div>
+</article>
+
+
+
+
+
   <article class="blog">
   <div class="post-content">
     <header>
@@ -130,9 +205,7 @@ ICPC 2024 regional has ended, and our team ranked #20 and #38 in Jakarta and Han
     <div class="entry">
       
         Problem definition
-The Pisano period of a prime , is defined as the minimum integer satisfying , where is the Fibonacci sequence. It is well known that for , is either a divisor of or . In this article, we extend this conclusion to any C-finite sequence of the formulae , where is a constant.
-
-Closed
+The Pisano period of a prime ppp, is defined as the minimum integer π(p)\pi(p)π(p) satisfying f0≡fπ(p),f1≡fπ(p)+1(mod⁡p)f_0\equiv f_{\pi(p)},f_1\equiv f_{\pi(p)+1}(\operatorname{mod} p)f0​≡fπ(p)​,f1​≡fπ(p)+1​(modp), where fff is the Fibonacci sequence. It is well known that for p=
       
     </div>
       
@@ -168,7 +241,7 @@ Closed
     <div class="entry">
       
         Problem definition
-An undirected graph is -coloring if all vertices could be colored with at most different colors, such that all adjacent vertices have different colors. For example, a -clique is -coloring, and a tree is 2-coloring. The densest subgraph of a graph , is an induced subgraph of a vert
+An undirected graph GGG is kkk-coloring if all vertices could be colored with at most kkk different colors, such that all adjacent vertices have different colors. For example, a kkk-clique is kkk-coloring, and a tree is 2-coloring. The densest subgraph of a graph GGG, is an induce
       
     </div>
       
@@ -203,9 +276,9 @@ An undirected graph is -coloring if all vertices could be colored with at most d
     </header>
     <div class="entry">
       
-        A tree is a connected undirected graph with nodes and edges. The diameter of a tree is the largest distance between two nodes in the tree.
+        A tree is a connected undirected graph with nnn nodes and n−1n-1n−1 edges. The diameter of a tree is the largest distance between two nodes in the tree.
 
-We define a growing tree as follows: at each moment, a new node is inserted into the tree, and is connected to some node in the original tree. What is the diame
+We define a growing tree as follows: at each moment, a new node uuu is inserted into the tree, and uuu is connected to some node vvv in the origin
       
     </div>
       
@@ -240,25 +313,7 @@ We define a growing tree as follows: at each moment, a new node is inserted into
     </header>
     <div class="entry">
       
-        In this article, we would use to represent the bitwise XOR operation between two integers. We observe that: for any , , and therefore, for any .
-
-We now illustrate the formal proof of the above observation.
-
-We firstly write into a binary format, i.e.:
-
-
-
-Let . Then:
-
-
-
-
-
-
-
-
-
-Then the binary formats
+        In this article, we would use ⊕\oplus⊕ to represent the bitwise XOR operation between two integers. We observe that: for any x∈Nx\in\mathbb Nx∈N, (4x)⊕(4x+1)⊕(4x+2)⊕(4x+3)=0(4x)\oplus(4x+1)\oplus(4x+2)\oplus(4x+3)=0(4x)⊕(4x+1)⊕(4x+2)⊕(4x+3)=0, and therefore, ⨁i=04y−1i=0\bigoplus_{i=0}^{4y-1}i=0⨁i=04
       
     </div>
       
@@ -292,6 +347,14 @@ Then the binary formats
   <ul class="entry">
     
       <li>
+        <a href="/blogs/2026/03/25/Optimal-Party-Grouping/">Optimal Party Grouping</a>
+      </li>
+    
+      <li>
+        <a href="/blogs/2026/03/10/ANN/">Does nearest neighbor distance approach farthest neighbor distance in high-dimensional space?</a>
+      </li>
+    
+      <li>
         <a href="/blogs/2024/12/26/icpc2024/">A reflection on ICPC 2024</a>
       </li>
     
@@ -301,14 +364,6 @@ Then the binary formats
     
       <li>
         <a href="/blogs/2024/10/13/graph-coloring/">Graph coloring with densest subgraph</a>
-      </li>
-    
-      <li>
-        <a href="/blogs/2024/09/03/diameter/">Maintaining the diameter of a growing tree in O(log n) time</a>
-      </li>
-    
-      <li>
-        <a href="/blogs/2024/09/02/xorsum/">The XOR sum of 4x, 4x + 1, 4x + 2 and 4x + 3 is 0 for any non-negative integer x</a>
       </li>
     
   </ul>
