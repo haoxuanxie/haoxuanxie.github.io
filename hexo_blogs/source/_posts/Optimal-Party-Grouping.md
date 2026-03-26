@@ -24,7 +24,13 @@ I found this problem interesting and practical in my daily life. There are sever
 
 We can formalize the problem as: given a graph $G=(V,E)$ with a root vertex $u$ such that every other vertex is connected to $u$, find a subset $S\subseteq V$ such that $u\in S$ and $|S|=k+1$ such that the density of the subgraph induced by $S$ is maximized. The density of a subgraph is defined as $\frac{|E(S)|}{|S|}$, where $E(S)$ is the set of edges in the subgraph induced by $S$.
 
-There is a simple greedy solution using $O(n\log n+km/n)$ time: each round we locate the vertex with minimum degree and remove it from the graph until only $k+1$ vertices are left. Note that $u$ will not be removed since it has the largest degree. It is straightforward to verify the correctness of the solution.
+There is a simple greedy solution using $O(n\log n+m-km/n)$ time: each round we locate the vertex with minimum degree and remove it from the graph until only $k+1$ vertices are left. Note that $u$ will not be removed since it has the largest degree. It is straightforward to verify the correctness of the solution.
+
+**UPD: The above greedy solution is wrong. A counterexample can be constructed by conneting $u$ with a $k$-clique and a large-enough complete bipartite graph. Then the clique will be incorrectly pruned.**
+
+We can prove this problem is NP-hard by reducing from size-$k$ densest subgraph problem, which aims to find a densest subgraph with exactly $k$ vertices.
+
+Let $G'$ be the target graph of the size-$k$ densest subgraph problem, which is known to be NP-hard. We construct $G$ by adding a vertex $u$ connecting every vertex in $G'$. Therefore, solving our version of problem, and then removing $u$, gives the result for size-$k$ densest subgraph problem.
 
 ## Solution based on embeddings
 This is  the way I prefer more. I don't want to invite a group of friends that are already very familiar with each other, or in the same community. For example, using the above approach for my friends will result in a group of all my lab colleagues. However, how to make your friends "least embarrassed" if they are not familiar with each other? Maximizing their common interests can help.
