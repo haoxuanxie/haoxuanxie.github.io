@@ -6,10 +6,17 @@ title: Publications
 # Publications
 
 <div class="publication-item">
+  <h2>Efficiently Querying Connected Components in Large Temporal Graphs via Scalable and Maintainable Indices</h2>
+  <p><strong>Authors:</strong> (Yuyang Xia, <strong>Haoxuan Xie</strong>) (Equal contribution), Yixiang Fang, Wensheng Luo, Chenhao Ma, Dong Wen</p>
+  <p><strong>Published in:</strong> to appear in The VLDB Journal</p>
+  <p><strong>DOI:</strong> currently not available</p>
+</div>
+
+<div class="publication-item">
   <h2>RadixGraph: A Fast, Space-Optimized Data Structure for Dynamic Graph Storage</h2>
   <p><strong>Authors:</strong> <strong>Haoxuan Xie</strong>, Junfeng Liu, Siqiang Luo, Kai Wang</p>
-  <p><strong>Published in:</strong> to appear in SIGMOD 2026</p>
-  <p><strong>DOI:</strong> <a href="https://arxiv.org/abs/2601.01444">10.48550/arXiv.2601.01444</a></p>
+  <p><strong>Published in:</strong> Proceedings of the ACM on Management of Data, Volume 4, Issue 1 (SIGMOD 2026)</p>
+  <p><strong>DOI:</strong> <a href="https://doi.org/10.1145/3786686">10.1145/3786686</a></p>
 </div>
 
 <div class="publication-item">
