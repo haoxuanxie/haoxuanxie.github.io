@@ -23,8 +23,8 @@ title: 发表
 <div class="publication-item">
   <h2>ArceKV: Towards Workload-driven LSM-compactions for Key-Value Store Under Dynamic Workloads</h2>
   <p><strong>作者:</strong> Junfeng Liu, <strong>Haoxuan Xie</strong>, Siqiang Luo</p>
-  <p><strong>发表于:</strong> to appear in VLDB 2026</p>
-  <p><strong>DOI:</strong> <a href="https://arxiv.org/abs/2508.03565">10.48550/arXiv.2508.03565</a></p>
+  <p><strong>发表于:</strong> Proceedings of the VLDB Endowment, Vol. 19, No. 5 (VLDB 2026)</p>
+  <p><strong>DOI:</strong> <a href="https://dl.acm.org/doi/10.14778/3796195.3796208">10.14778/3796195.3796208</a></p>
 </div>
 
 <div class="publication-item">
