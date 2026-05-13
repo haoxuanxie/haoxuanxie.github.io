@@ -7,7 +7,7 @@ title: 发表
 
 <div class="publication-item">
   <h2>Efficiently Querying Connected Components in Large Temporal Graphs via Scalable and Maintainable Indices</h2>
-  <p><strong>作者:</strong> (Yuyang Xia, <strong>Haoxuan Xie</strong>) (Equal contribution), Yixiang Fang, Wensheng Luo, Chenhao Ma, Dong Wen</p>
+  <p><strong>作者:</strong> (Yuyang Xia*, <strong>Haoxuan Xie*</strong>) (Equal contribution), Yixiang Fang, Wensheng Luo, Chenhao Ma, Dong Wen</p>
   <p><strong>发表于:</strong> The VLDB Journal (2026) 35:25</p>
   <p><strong>DOI:</strong> <a href="https://doi.org/10.1007/s00778-026-00977-5">10.1007/s00778-026-00977-5</a></p>
 </div>
