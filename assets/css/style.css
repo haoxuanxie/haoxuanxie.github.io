@@ -203,14 +203,14 @@ main {
 
 .social-icons {
   display: flex;
-  gap: 10px; /* Space between icons */
+  gap: 8px; /* Space between icons */
   margin-top: 10px;
   justify-content: center;
 }
 
 .social-icons svg {
-  width: 40px; /* Consistent size for the icons */
-  height: 40px; /* Maintain aspect ratio */
+  width: 36px; /* Keep the row aligned with the profile photo */
+  height: 36px; /* Maintain aspect ratio */
   vertical-align: middle;
   transition: transform 0.3s ease;
 }
