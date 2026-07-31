@@ -5,23 +5,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>主页 | Haoxuan Xie's Homepage</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="https://haoxuanxie.github.io/assets/css/style.css">
 </head>
 <body>
   <header>
     <nav>
       <ul>
         <li><a href="#" id="translate-link">English</a></li>
-        <li><a href="/home_zh-CN">主页</a></li>
-        <li><a href="/publications_zh-CN">发表</a></li>
-        <li><a href="/blogs">博客</a></li>
-        <li><a href="/cv_zh-CN">简历</a></li>
+        <li><a href="https://haoxuanxie.github.io/home_zh-CN">主页</a></li>
+        <li><a href="https://haoxuanxie.github.io/publications_zh-CN">发表</a></li>
+        <li><a href="https://haoxuanxie.github.io/blogs">博客</a></li>
+        <li><a href="https://haoxuanxie.github.io/cv_zh-CN">简历</a></li>
       </ul>
     </nav>
   </header>
   <main>
     <h1 id="谢昊轩">谢昊轩</h1>
 
+<div class="about-card">
 <div class="about-container">
   <div class="left-side">
     <img src="/assets/images/profile_photo.jpg" alt="谢昊轩" class="profile-photo" />
@@ -56,17 +57,31 @@
   </div>
   <div class="right-side">
     <p>欢迎来到我的主页！</p>
-    <p>我目前是<a href="https://www.ntu.edu.sg/">南洋理工大学</a>的一名博士生，就读于<a href="https://www.ntu.edu.sg/computing">计算与数据科学学院</a>。 此前，我在<a href="https://www.cuhk.edu.cn">香港中文大学（深圳）</a>就读本科课程并取得了工学学士学位，在此期间，我在<a href="https://fangyixiang.github.io/">方一向教授</a>的指导下发表了我的第一篇 <a href="https://sigmod.org/">SIGMOD</a> 会议论文。 我曾在 <a href="https://www.pingcap.com/">PingCAP</a> 和<a href="https://www.tencent.com/">腾讯</a>公司实习。我的科研方向是图算法和图存储，但我对许多其他领域都感兴趣且有所了解，欢迎大家与我沟通交流。</p>
-    <p>在科研之外，我对<a href="https://oi-wiki.org/">算法竞赛</a>很感兴趣。我曾在世界各地参加过许多算法竞赛（例如，<a href="https://news.icpc.global/">ICPC</a>），并在 <a href="https://codeforces.com/">Codeforces</a> 上取得了 <span style="color: #a0a;">candidate master</span> 的排位等级。我科研中的许多想法也都受启发于算法竞赛。</p>
+    <p>我目前是<a href="https://www.ntu.edu.sg/">南洋理工大学</a>的一名博士生，就读于<a href="https://www.ntu.edu.sg/computing">计算与数据科学学院</a>。 此前，我在<a href="https://www.cuhk.edu.cn">香港中文大学（深圳）</a>就读本科课程并取得了工学学士学位，在此期间，我在<a href="https://fangyixiang.github.io/">方一向教授</a>的指导下发表了我的第一篇论文。 我曾在 <a href="https://www.pingcap.com/">PingCAP</a> 和<a href="https://www.tencent.com/">腾讯</a>公司实习。我的科研方向包括：</p>
+    <ul style="list-style: disc; margin: 0; padding-left: 1em;">
+      <li>图算法与图存储</li>
+      <li>向量数据库与向量检索算法</li>
+      <li>LSM树在键值存储中的优化</li>
+      <li>我对许多其他领域都感兴趣且有所了解，欢迎大家与我沟通交流</li>
+    </ul>
   </div>
 </div>
 
-<div class="message-box">
-  <h3>你可以在此留下一条匿名信息，且它仅对我可见。</h3>
-  <form id="message-form" action="https://formspree.io/f/mpwadnky" method="POST">
-    <textarea name="message" id="message-textarea" placeholder="输入你的信息..." oninput="checkInput()"></textarea>
-    <button type="submit" id="submit-button" disabled="">提交</button>
-  </form>
+<div class="about-continuation">
+  <p>在科研之外，我对<a href="https://oi-wiki.org/">算法竞赛</a>很感兴趣。我曾在世界各地参加过许多算法竞赛（例如，<a href="https://news.icpc.global/">ICPC</a>），并在 <a href="https://codeforces.com/">Codeforces</a> 上取得了 <span style="color: #a0a;">candidate master</span> 的排位等级。我科研中的许多想法也都受启发于算法竞赛。</p>
+  <p><strong>我将在2027年毕业，并且正在寻找新加坡学术界与业界的岗位，欢迎联系！</strong></p>
+</div>
+</div>
+
+<div class="hero">
+  <div class="message-box">
+    <h3>你可以在此留下一条匿名信息，且它仅对我可见。</h3>
+    <form id="message-form" action="https://formspree.io/f/mpwadnky" method="POST">
+      <textarea name="message" id="message-textarea" placeholder="输入你的信息..." oninput="checkInput()"></textarea>
+      <br />
+      <button type="submit" id="submit-button" disabled="">提交</button>
+    </form>
+  </div>
 </div>
 
 <script>

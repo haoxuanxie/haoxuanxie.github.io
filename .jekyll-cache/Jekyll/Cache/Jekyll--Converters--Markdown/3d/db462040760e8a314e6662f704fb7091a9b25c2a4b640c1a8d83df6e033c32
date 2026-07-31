@@ -1,0 +1,37 @@
+I"�<h1 id="发表">发表</h1>
+
+<div class="publication-item">
+  <h2>Efficiently Querying Connected Components in Large Temporal Graphs via Scalable and Maintainable Indices</h2>
+  <p><strong>作者:</strong> (Yuyang Xia*, <strong>Haoxuan Xie*</strong>) (Equal contribution), Yixiang Fang, Wensheng Luo, Chenhao Ma, Dong Wen</p>
+  <p><strong>发表于:</strong> The VLDB Journal (2026) 35:25</p>
+  <p><strong>DOI:</strong> <a href="https://doi.org/10.1007/s00778-026-00977-5">10.1007/s00778-026-00977-5</a></p>
+</div>
+
+<div class="publication-item">
+  <h2>RadixGraph: A Fast, Space-Optimized Data Structure for Dynamic Graph Storage</h2>
+  <p><strong>作者:</strong> <strong>Haoxuan Xie</strong>, Junfeng Liu, Siqiang Luo, Kai Wang</p>
+  <p><strong>发表于:</strong> Proceedings of the ACM on Management of Data, Volume 4, Issue 1 (SIGMOD 2026)</p>
+  <p><strong>DOI:</strong> <a href="https://doi.org/10.1145/3786686">10.1145/3786686</a></p>
+</div>
+
+<div class="publication-item">
+  <h2>ArceKV: Towards Workload-driven LSM-compactions for Key-Value Store Under Dynamic Workloads</h2>
+  <p><strong>作者:</strong> Junfeng Liu, <strong>Haoxuan Xie</strong>, Siqiang Luo</p>
+  <p><strong>发表于:</strong> Proceedings of the VLDB Endowment, Vol. 19, No. 5 (VLDB 2026)</p>
+  <p><strong>DOI:</strong> <a href="https://dl.acm.org/doi/10.14778/3796195.3796208">10.14778/3796195.3796208</a></p>
+</div>
+
+<div class="publication-item">
+  <h2>Finding Near-Optimal Maximum Set of Disjoint k-Cliques in Real-World Social Networks</h2>
+  <p><strong>作者:</strong> Xin Chen, Wenqing Lin, <strong>Haoxuan Xie</strong>, Sibo Wang, Siqiang Luo</p>
+  <p><strong>发表于:</strong> 2025 IEEE 41st International Conference on Data Engineering (ICDE 2025)</p>
+  <p><strong>DOI:</strong> <a href="https://doi.org/10.1109/icde65448.2025.00248">10.1109/icde65448.2025.00248</a></p>
+</div>
+
+<div class="publication-item">
+  <h2>On Querying Connected Components in Large Temporal Graphs</h2>
+  <p><strong>作者:</strong> <strong>Haoxuan Xie</strong>, Yixiang Fang, Yuyang Xia, Wensheng Luo, Chenhao Ma</p>
+  <p><strong>发表于:</strong> Proceedings of the ACM on Management of Data, Volume 1, Issue 2 (SIGMOD 2023)</p>
+  <p><strong>DOI:</strong> <a href="https://doi.org/10.1145/3589315">10.1145/3589315</a></p>
+</div>
+:ET

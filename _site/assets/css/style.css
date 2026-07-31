@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -11,6 +11,12 @@ header {
   color: #fff;
   padding: 10px 20px;
   text-align: right;
+}
+
+.hero {
+  text-align: center;
+  padding: 10px 20px;
+  background: linear-gradient(to bottom, #f8f8f8, #e0e0e0);
 }
 
 nav ul {
@@ -67,23 +73,33 @@ main {
   text-decoration: underline;
 }
 
-.about-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+.about-card {
   margin-bottom: 40px;
+  padding: 28px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: minmax(190px, 0.8fr) minmax(0, 2fr);
+  gap: 36px;
+  align-items: start;
 }
 
 .left-side {
-  flex: 1;
-  max-width: 500px; /* Increased width for the left side */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
 
 .right-side {
-  flex: 2;
+  min-width: 0;
+}
+
+.about-continuation {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid #e8e8e8;
 }
 
 .profile-photo {
@@ -112,7 +128,7 @@ main {
 
 .message-box textarea {
   width: 100%;
-  max-width: 600px; /* Increased width for the text area */
+  max-width: 500px; /* Increased width for the text area */
   height: 150px; /* Increased height for better usability */
   padding: 10px;
   border: 1px solid #ccc;
@@ -153,25 +169,49 @@ main {
   border: none;
 }
 
-/* Media Queries for Responsive Design */
+/* Media query for mobile phones */
 @media (max-width: 768px) {
   .about-container {
+    display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* make children take full width */
+    gap: 24px;
+  }
+
+  .about-card {
+    padding: 0;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
   }
 
   .left-side {
-    max-width: 100%;
-    text-align: center;
-  }
-
-  .profile-photo {
-    max-width: 80%;
+    background: none; /* remove white background */
+    padding: 0;       /* remove inner padding */
+    border-radius: 0; /* remove rounded corners */
+    box-shadow: none; /* remove shadow */
+    width: 100%;      /* full width */
+    text-align: center; /* center the content */
   }
 
   .right-side {
-    margin-top: 20px;
-    width: 100%;
+    background: none; /* remove white background */
+    padding: 0;       /* remove inner padding */
+    border-radius: 0; /* remove rounded corners */
+    box-shadow: none; /* remove shadow */
+    width: 100%;      /* full width */
+  }
+
+  .about-continuation {
+    margin-top: 24px;
+    padding: 0;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .profile-photo {
+    max-width: 95%; /* optional: make photo smaller on mobile */
   }
 }
 
@@ -179,6 +219,7 @@ main {
   display: flex;
   gap: 10px; /* Space between icons */
   margin-top: 10px;
+  justify-content: center;
 }
 
 .social-icons svg {
