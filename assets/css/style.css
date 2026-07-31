@@ -76,6 +76,9 @@ main {
 .about-container {
   display: grid;
   grid-template-columns: minmax(190px, 0.8fr) minmax(0, 2fr);
+  grid-template-areas:
+    "profile details"
+    "continuation continuation";
   gap: 36px;
   align-items: start;
   padding: 28px;
@@ -86,17 +89,17 @@ main {
 }
 
 .left-side {
-  position: sticky;
-  top: 20px;
+  grid-area: profile;
   text-align: center;
 }
 
 .right-side {
+  grid-area: details;
   min-width: 0;
 }
 
 .about-continuation {
-  grid-column: 1 / -1;
+  grid-area: continuation;
   border-top: 1px solid #e8e8e8;
   padding-top: 4px;
 }
@@ -188,7 +191,6 @@ main {
     box-shadow: none; /* remove shadow */
     width: 100%;      /* full width */
     text-align: center; /* center the content */
-    position: static;
   }
 
   .right-side {
