@@ -95,6 +95,12 @@ main {
   min-width: 0;
 }
 
+.about-continuation {
+  grid-column: 1 / -1;
+  border-top: 1px solid #e8e8e8;
+  padding-top: 4px;
+}
+
 .profile-photo {
   width: 100%;
   max-width: 400px; /* Adjust max-width for the photo */
@@ -191,6 +197,11 @@ main {
     border-radius: 0; /* remove rounded corners */
     box-shadow: none; /* remove shadow */
     width: 100%;      /* full width */
+  }
+
+  .about-continuation {
+    width: 100%;
+    border-top: 1px solid #e8e8e8;
   }
 
   .profile-photo {

@@ -46,6 +46,8 @@ title: 主页
       <li>LSM树在键值存储中的优化</li>
       <li>我对许多其他领域都感兴趣且有所了解，欢迎大家与我沟通交流</li>
     </ul>
+  </div>
+  <div class="about-continuation">
     <p>在科研之外，我对<a href="https://oi-wiki.org/">算法竞赛</a>很感兴趣。我曾在世界各地参加过许多算法竞赛（例如，<a href="https://news.icpc.global/">ICPC</a>），并在 <a href="https://codeforces.com/">Codeforces</a> 上取得了 <span style="color: #a0a;">candidate master</span> 的排位等级。我科研中的许多想法也都受启发于算法竞赛。</p>
     <p><strong>我将在2027年毕业，并且正在寻找新加坡学术界与业界的岗位，欢迎联系！</strong></p>
   </div>
