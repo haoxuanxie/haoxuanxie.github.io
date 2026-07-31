@@ -5,6 +5,7 @@ title: Home
 
 # Haoxuan Xie
 
+<div class="about-card">
 <div class="about-container">
   <div class="left-side">
     <img src="/assets/images/profile_photo.jpg" alt="Haoxuan Xie" class="profile-photo">
@@ -52,6 +53,7 @@ title: Home
 <div class="about-continuation">
   <p>Apart from research, I'm quite interested in <a href="https://cp-algorithms.com/index.html">Competitive Programming</a>. I have participated in lots of programming contests (e.g., <a href="https://news.icpc.global/">ICPC</a>) worldwide and achieved a <span style="color: #a0a;">candidate master</span> rating at <a href="https://codeforces.com/">Codeforces</a>. Many of my research ideas are also inspired from my experience in competitve programming.</p>
   <p><strong>I am graduating in 2027 and seeking Singapore-based opportunities in both industry and academia. Please feel free to reach out to me.</strong></p>
+</div>
 </div>
 
 <div class="hero">

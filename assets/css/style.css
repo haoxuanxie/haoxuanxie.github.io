@@ -73,16 +73,19 @@ main {
   text-decoration: underline;
 }
 
+.about-card {
+  margin-bottom: 40px;
+  padding: 28px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
 .about-container {
   display: grid;
   grid-template-columns: minmax(190px, 0.8fr) minmax(0, 2fr);
   gap: 36px;
   align-items: start;
-  padding: 28px;
-  margin-bottom: 40px;
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .left-side {
@@ -94,11 +97,9 @@ main {
 }
 
 .about-continuation {
-  margin: -16px 0 40px;
-  padding: 24px 28px;
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid #e8e8e8;
 }
 
 .profile-photo {
@@ -175,6 +176,9 @@ main {
     flex-direction: column;
     align-items: center; /* make children take full width */
     gap: 24px;
+  }
+
+  .about-card {
     padding: 0;
     background: none;
     border-radius: 0;
@@ -199,7 +203,7 @@ main {
   }
 
   .about-continuation {
-    margin: 0 0 40px;
+    margin-top: 24px;
     padding: 0;
     background: none;
     border-radius: 0;
