@@ -6,7 +6,7 @@
   <link href="https://haoxuanxie.github.io/blogs/atom.xml" rel="self"/>
   
   <link href="https://haoxuanxie.github.io/blogs/"/>
-  <updated>2026-04-28T04:01:17.014Z</updated>
+  <updated>2026-09-13T07:56:41.637Z</updated>
   <id>https://haoxuanxie.github.io/blogs/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AI proved a math conjecture I made as an undergraduate</title>
+    <link href="https://haoxuanxie.github.io/blogs/2026/09/13/remainder/"/>
+    <id>https://haoxuanxie.github.io/blogs/2026/09/13/remainder/</id>
+    <published>2026-09-13T07:13:28.000Z</published>
+    <updated>2026-09-13T07:56:41.637Z</updated>
+    
+    
+    <summary type="html">The problem
+Given positive integers nnn and kkk with k&lt;nk&lt;nk&lt;n, consider n−1n-1n−1 balls labelled
+1,2,…,n−11,2,&#92;ldots,n-11,2,…,n−1. Color them subject to the following rules:
+
+ 1. Balls iii and n−in-in−i have the same color.
+ 2. Balls iii and ∣i−k∣|i-k|∣i−k∣ have the same color whenever i≠ki&#92;ne ki=</summary>
+    
+    
+    
+    
+    <category term="mathematics" scheme="https://haoxuanxie.github.io/blogs/tags/mathematics/"/>
+    
+    <category term="number theory" scheme="https://haoxuanxie.github.io/blogs/tags/number-theory/"/>
+    
+  </entry>
   
   <entry>
     <title>Optimal Party Grouping</title>
