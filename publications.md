@@ -6,6 +6,14 @@ title: Publications
 # Publications
 
 <div class="publication-item">
+  <h2>VectorMaton: Efficient Vector Search with Pattern Constraints via an Enhanced Suffix Automaton</h2>
+  <p><strong>Authors:</strong> <strong>Haoxuan Xie</strong> Siqiang Luo</p>
+  <p><strong>Published in:</strong> To appear in VLDB 2027 conference</p>
+  <p><strong>DOI:</strong> <a href="https://doi.org/10.48550/arXiv.2603.01525">10.48550/arXiv.2603.01525</a></p>
+</div>
+
+
+<div class="publication-item">
   <h2>Efficiently Querying Connected Components in Large Temporal Graphs via Scalable and Maintainable Indices</h2>
   <p><strong>Authors:</strong> (Yuyang Xia*, <strong>Haoxuan Xie*</strong>) (Equal contribution), Yixiang Fang, Wensheng Luo, Chenhao Ma, Dong Wen</p>
   <p><strong>Published in:</strong> The VLDB Journal (2026) 35:25</p>
