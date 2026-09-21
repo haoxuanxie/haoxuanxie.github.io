@@ -7,7 +7,7 @@ title: Publications
 
 <div class="publication-item">
   <h2>VectorMaton: Efficient Vector Search with Pattern Constraints via an Enhanced Suffix Automaton</h2>
-  <p><strong>Authors:</strong> <strong>Haoxuan Xie</strong> Siqiang Luo</p>
+  <p><strong>Authors:</strong> <strong>Haoxuan Xie</strong>, Siqiang Luo</p>
   <p><strong>Published in:</strong> To appear in VLDB 2027 conference</p>
   <p><strong>DOI:</strong> <a href="https://doi.org/10.48550/arXiv.2603.01525">10.48550/arXiv.2603.01525</a></p>
 </div>
